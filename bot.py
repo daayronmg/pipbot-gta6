@@ -33,7 +33,7 @@ DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-5-5")
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODELS = [m.strip() for m in os.environ.get("GEMINI_MODEL",
-    "gemini-3-flash-preview,gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m.strip()]
+    "gemini-3-flash-preview,gemini-3.1-flash-lite-preview,gemini-3-flash-preview").split(",") if m.strip()]
 HAS_AI = bool(ANTHROPIC_KEY or GEMINI_KEY)
 # Con IA se analizan más candidatos y se quedan solo los que tienen sentido
 N_CANDIDATES = int(os.environ.get("N_CANDIDATES", "8")) if HAS_AI else CLIPS_PER_RUN
@@ -200,7 +200,7 @@ def analyze_gemini(clip, src):
             return json.loads(re.search(r"\{.*\}", txt, re.S).group(0))
         last = f"{model}: {r.status_code} {r.text[:200]}"
         log("Gemini", last)
-        if r.status_code == 429:
+        if r.status_code in (429, 500, 503):
             time.sleep(20)
     raise RuntimeError(last)
 
@@ -436,11 +436,15 @@ def main():
             break
         try:
             src = download(c)
+            if any(m[0]["broadcaster_name"] == c["broadcaster_name"] for m in made):
+                continue  # variedad: un clip por streamer en cada tanda
             a = None
             try:
                 a = analyze(c, src)
             except Exception as e:
                 log("Análisis IA falló:", e)
+                if HAS_AI:
+                    continue  # sin análisis no publicamos clips sin sentido
             if a is not None and not a.get("usable"):
                 state["posted"].append(c["id"])  # descartado: no volver a mirarlo
                 continue
