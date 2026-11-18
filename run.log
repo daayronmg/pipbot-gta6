@@ -1,4 +1,4 @@
-[pipbot] 4 clips válidos (modo sin claves)
+[pipbot] 2 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 503 {
   "error": {
     "code": 503,
@@ -7,21 +7,9 @@
   }
 }
 
-[pipbot] Gemini gemini-2.5-flash: 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features a
-[pipbot] Gemini gemini-2.5-flash-lite: 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest 
-[pipbot] Análisis IA falló: gemini-2.5-flash-lite: 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest 
-[pipbot] Montado: pip_2361978734.mp4 | GTA 6 ES UNA LOCURA
-[pipbot] IA: rubius usable=True nota=8 · Es un momento divertido de Rubius cometiendo un error con los controles en pleno mar.
-[pipbot] Montado: pip_1516465023.mp4 | ¡CASI SE CAE DEL BARCO!
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en youtube para 18/11 18:41 UTC
-[pipbot] Programado en youtube para 18/11 19:56 UTC
+[pipbot] IA: illojuan usable=True nota=7 · El streamer confirma una decisión importante sobre cómo jugará GTA VI
+[pipbot] Montado: pip_301613481.mp4 | ILLOJUAN NO HARÁ EL TRUCO DE NUEVA ZELANDA
+[pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
+[pipbot] ERROR Buffer tiktok: Invalid post: Video could not be read from its URL.
+[pipbot] Programado en youtube para 18/11 20:10 UTC
+Buffer rechazó algunos posts: tiktok: Invalid post: Video could not be read from its URL.
