@@ -1,15 +1,2 @@
-[pipbot] 2 clips válidos (modo sin claves)
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: illojuan usable=True nota=7 · El streamer confirma una decisión importante sobre cómo jugará GTA VI
-[pipbot] Montado: pip_301613481.mp4 | ILLOJUAN NO HARÁ EL TRUCO DE NUEVA ZELANDA
-[pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] ERROR Buffer tiktok: Invalid post: Video could not be read from its URL.
-[pipbot] Programado en youtube para 18/11 20:10 UTC
-Buffer rechazó algunos posts: tiktok: Invalid post: Video could not be read from its URL.
+[pipbot] 1 clips válidos (modo sin claves)
+[pipbot] IA: illojuan usable=False nota=3 · No se muestra gameplay de GTA 6 ni detalles del juego; es solo el streamer comentando la noticia del hacker con su foto de fondo.
