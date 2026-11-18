@@ -30,6 +30,9 @@ LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "6"))
 TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "youtube,tiktok,instagram").split(",")]
 GAME_NAME = os.environ.get("GAME_NAME", "Grand Theft Auto VI")
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-5-5")
+# Con IA se analizan más candidatos y se quedan solo los que tienen sentido
+N_CANDIDATES = int(os.environ.get("N_CANDIDATES", "8")) if ANTHROPIC_KEY else CLIPS_PER_RUN
 
 W, H = 1080, 1920
 INK = (35, 18, 52); YEL = (255, 214, 64); PINK = (255, 64, 150); WHITE = (255, 255, 255)
@@ -87,10 +90,11 @@ def find_clips_public(state):
             good.append({"id": cid, "url": e.get("url") or f"https://clips.twitch.tv/{cid}",
                          "title": e.get("title") or "", "broadcaster_name": ch,
                          "view_count": e.get("view_count") or 0, "duration": e.get("duration") or 30})
-            break  # uno por streamer
+            if sum(1 for g in good if g["broadcaster_name"] == ch) >= 2:
+                break  # máximo 2 candidatos por streamer
     good.sort(key=lambda c: c["view_count"], reverse=True)
     log(f"{len(good)} clips válidos (modo sin claves)")
-    return good[:CLIPS_PER_RUN]
+    return good[:N_CANDIDATES]
 
 def find_clips(state):
     if not (TWITCH_ID and TWITCH_SECRET):
@@ -116,13 +120,78 @@ def find_clips(state):
         seen_streamers.add(c["broadcaster_name"])
         good.append(c)
     log(f"{len(clips)} clips encontrados, {len(good)} válidos")
-    return good[:CLIPS_PER_RUN]
+    return good[:N_CANDIDATES]
 
 def download(clip):
     WORK.mkdir(exist_ok=True)
     out = WORK / f"{clip['id']}.mp4"
     subprocess.run(["yt-dlp", "-q", "-f", "best[ext=mp4]/best", "-o", str(out), clip["url"]], check=True)
     return out
+
+# ---------------- análisis con IA ----------------
+_whisper = None
+def transcribe(src):
+    global _whisper
+    try:
+        from faster_whisper import WhisperModel
+        if _whisper is None:
+            _whisper = WhisperModel("base", device="cpu", compute_type="int8")
+        segs, _ = _whisper.transcribe(str(src), language=None, vad_filter=True)
+        return " ".join(s.text.strip() for s in segs)[:1500]
+    except Exception as e:
+        log("Sin transcripción:", e)
+        return ""
+
+def frames_b64(src, n=6):
+    import base64
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(src)],
+                               capture_output=True, text=True).stdout.strip() or 20)
+    out = []
+    for k in range(n):
+        t = dur * (k + 0.5) / n
+        jpg = WORK / f"f_{k}.jpg"
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{t:.2f}", "-i", str(src), "-frames:v", "1",
+                        "-vf", "scale=640:-2", "-q:v", "4", str(jpg)], check=True)
+        out.append(base64.b64encode(jpg.read_bytes()).decode())
+    return out
+
+ANALYSIS_PROMPT = """Eres el editor de "Pip te lo explica", una página fan de GTA 6 en español de España (TikTok/YouTube Shorts).
+Te paso fotogramas de un clip de Twitch del streamer {streamer}, su título y lo que se dice en el audio.
+Título del clip: "{title}"
+Audio (transcripción automática, puede tener errores): "{transcript}"
+
+Decide si el clip sirve y, si sirve, explica QUÉ se ve, para que el vídeo tenga sentido para alguien que no ha visto el directo.
+
+Descártalo (usable=false) si: la mayor parte es la cámara del streamer y no el juego; es una cinemática o momento de la historia (spoiler); es un menú, pantalla de carga o algo sin interés; o no se entiende qué pasa.
+
+Reglas para los textos: español de España, natural, sin inventar datos que no se vean u oigan en el clip; si no estás seguro de algo, no lo afirmes. Nada de spoilers de la historia.
+
+Responde SOLO con este JSON:
+{{"usable": true/false,
+ "motivo": "por qué lo aceptas o descartas, breve",
+ "tipo": "CURIOSIDAD" | "DETALLE" | "TRUCO" | "FÍSICAS" | "GRÁFICOS" | "MOMENTAZO",
+ "gancho": "frase en MAYÚSCULAS, máx 7 palabras, que dé ganas de verlo",
+ "explicacion": "1 frase de máx 110 caracteres que diga qué es eso que se ve (ej: 'Los NPC reaccionan si les quitas el sitio en la cola del súper')",
+ "titulo": "título de YouTube Short, máx 70 caracteres, termina en #GTA6",
+ "texto": "texto del post para TikTok/YouTube: 1-2 frases + pregunta para comentarios, sin hashtags",
+ "nota": número del 1 al 10 de lo viral que puede ser}}"""
+
+def analyze(clip, src):
+    """Devuelve dict con el análisis o None si no hay IA."""
+    if not ANTHROPIC_KEY:
+        return None
+    transcript = transcribe(src)
+    content = [{"type": "image", "source": {"type": "base64", "media_type": "image/jpeg", "data": b}} for b in frames_b64(src)]
+    content.append({"type": "text", "text": ANALYSIS_PROMPT.format(
+        streamer=clip["broadcaster_name"], title=clip["title"].replace('"', "'"), transcript=transcript.replace('"', "'"))})
+    r = requests.post("https://api.anthropic.com/v1/messages", timeout=120, headers={
+        "x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+        json={"model": ANTHROPIC_MODEL, "max_tokens": 600, "messages": [{"role": "user", "content": content}]})
+    r.raise_for_status()
+    txt = r.json()["content"][0]["text"]
+    a = json.loads(re.search(r"\{.*\}", txt, re.S).group(0))
+    log(f"IA: {clip['broadcaster_name']} usable={a.get('usable')} nota={a.get('nota')} · {a.get('motivo')}")
+    return a
 
 # ---------------- textos ----------------
 def write_texts(clip, state):
@@ -159,7 +228,7 @@ def write_texts(clip, state):
 def F(s): return ImageFont.truetype(FONT, s)
 
 def wrap(text, font, maxw):
-    words, lines, cur = text.split(), [], ""
+    words, lines, cur = [w for w in text.split(" ") if w], [], ""
     for w in words:
         t = (cur + " " + w).strip()
         if font.getlength(t) <= maxw: cur = t
@@ -167,7 +236,7 @@ def wrap(text, font, maxw):
     if cur: lines.append(cur)
     return lines
 
-def build_overlay(hook, streamer, path):
+def build_overlay(hook, streamer, path, tipo=None, explicacion=None):
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     # marca
@@ -178,24 +247,42 @@ def build_overlay(hook, streamer, path):
     d.text((x0 + 30 - b[0], 110 + 17 - b[1]), t, font=f, fill=WHITE)
     # gancho (emojis fuera: la fuente no los tiene)
     clean = re.sub(r"[^\w\s¿?¡!.,:'\-áéíóúüñÁÉÍÓÚÜÑ0-9]", "", hook).strip()
+    clean = re.sub(r"\s+", " ", clean).replace("GTA 6", "GTA\u00a06").replace("GTA VI", "GTA\u00a0VI")
     size = 96
     while True:
         f = F(size); lines = wrap(clean, f, W - 120)
-        if len(lines) <= 3 or size <= 60: break
+        if len(lines) <= 2 or size <= 64: break
         size -= 6
-    y = 270
-    for i, ln in enumerate(lines):
+    y = 260
+    for i, ln in enumerate(lines[:3]):
         col = YEL if i == len(lines) - 1 else WHITE
         lw = f.getlength(ln)
         d.text(((W - lw) / 2, y), ln, font=f, fill=col, stroke_width=max(5, size // 12), stroke_fill=INK)
         y += int(size * 1.15)
-    # crédito bajo el vídeo
-    f = F(44); t = f"🎥 @{streamer}".replace("🎥 ", "Clip: ")
+    # etiqueta de tipo encima del vídeo
+    if tipo:
+        f = F(40); t = re.sub(r"[^\wÁÉÍÓÚÑ ]", "", tipo.upper()); b = f.getbbox(t)
+        pw, ph = b[2] - b[0] + 50, b[3] - b[1] + 28
+        x0 = (W - pw) // 2
+        d.rounded_rectangle([x0, 615, x0 + pw, 615 + ph], radius=ph // 2, fill=YEL, outline=INK, width=5)
+        d.text((x0 + 25 - b[0], 615 + 14 - b[1]), t, font=f, fill=INK)
+    y = 1328
+    # explicación bajo el vídeo
+    if explicacion:
+        f = F(46); lines = wrap(explicacion.strip(), f, W - 140)[:3]
+        bh = len(lines) * 58 + 30
+        d.rounded_rectangle([40, y, W - 40, y + bh], radius=28, fill=(255, 255, 255, 235), outline=INK, width=5)
+        yy = y + 15
+        for ln in lines:
+            lw = f.getlength(ln); d.text(((W - lw) / 2, yy), ln, font=f, fill=INK); yy += 58
+        y += bh + 18
+    # crédito
+    f = F(38); t = f"Clip: @{streamer}"
     lw = f.getlength(t)
-    d.rounded_rectangle([(W - lw) / 2 - 28, 1330, (W + lw) / 2 + 28, 1410], radius=40, fill=(20, 8, 36, 220))
-    d.text(((W - lw) / 2, 1340), t, font=f, fill=WHITE)
-    f = F(30); t = "Página fan · No afiliada a Rockstar Games"; lw = f.getlength(t)
-    d.text(((W - lw) / 2, 1418), t, font=f, fill=(235, 220, 245), stroke_width=3, stroke_fill=INK)
+    d.rounded_rectangle([(W - lw) / 2 - 24, y, (W + lw) / 2 + 24, y + 62], radius=31, fill=(20, 8, 36, 220))
+    d.text(((W - lw) / 2, y + 8), t, font=f, fill=WHITE)
+    f = F(28); t = "Página fan · No afiliada a Rockstar Games"; lw = f.getlength(t)
+    d.text((W - lw - 40, y + 76), t, font=f, fill=(235, 220, 245), stroke_width=3, stroke_fill=INK)
     im.save(path)
 
 def render(src, overlay, out):
@@ -205,7 +292,7 @@ def render(src, overlay, out):
         "[0:v]scale=1080:-2[fg];"
         "[bg][fg]overlay=(W-w)/2:700[v1];"
         "[v1][1:v]overlay=0:0[v2];"
-        "[2:v]format=rgba[pip];"
+        "[2:v]format=rgba,scale=iw*0.8:-1[pip];"
         "[v2][pip]overlay=20:H-h+12:shortest=1[v]"
     )
     pip = str(ASSETS / "pip" / "%03d.png")
@@ -313,11 +400,28 @@ def main():
     MEDIA.mkdir(exist_ok=True)
     made = []
     for c in clips:
+        if len(made) >= CLIPS_PER_RUN:
+            break
         try:
             src = download(c)
+            a = None
+            try:
+                a = analyze(c, src)
+            except Exception as e:
+                log("Análisis IA falló:", e)
+            if a is not None and not a.get("usable"):
+                state["posted"].append(c["id"])  # descartado: no volver a mirarlo
+                continue
             hook, title, text = write_texts(c, state)
+            tipo = expl = None
+            if a:
+                hook = a.get("gancho") or hook
+                title = (a.get("titulo") or title)[:100]
+                tipo, expl = a.get("tipo"), a.get("explicacion")
+                text = (f"{a.get('texto') or hook}\n\n🎥 Clip de {c['broadcaster_name']} (twitch.tv/{c['broadcaster_name']})\n"
+                        "Sígueme y Pip te lo explica todo de GTA 6.\n\n#GTA6 #GTAVI #GTA6España #gaming #videojuegos")
             ov = WORK / f"{c['id']}_ov.png"
-            build_overlay(hook, c["broadcaster_name"], ov)
+            build_overlay(hook, c["broadcaster_name"], ov, tipo, expl)
             safe = re.sub(r"[^A-Za-z0-9_-]", "", c["id"])[:60]
             out = MEDIA / f"pip_{safe}.mp4"
             render(src, ov, out)
