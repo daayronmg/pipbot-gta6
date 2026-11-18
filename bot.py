@@ -281,6 +281,8 @@ CREATE = """mutation($input: CreatePostInput!) {
   }
 }"""
 
+ERRORS = []
+
 def schedule(chans, video_url, title, text, due):
     for c in chans:
         svc = c["service"].lower()
@@ -298,6 +300,7 @@ def schedule(chans, video_url, title, text, due):
         res = buffer(CREATE, {"input": inp})["createPost"]
         if "message" in res and res["message"]:
             log(f"ERROR Buffer {svc}:", res["message"])
+            ERRORS.append(f"{svc}: {res['message']}")
         else:
             log(f"Programado en {svc} para {due:%d/%m %H:%M} UTC")
 
@@ -332,6 +335,8 @@ def main():
         schedule(chans, urls.get(out.name, f"DRY/{out.name}"), title, text, due)
         state["posted"].append(c["id"])
     save_state(state)
+    if ERRORS:
+        sys.exit("Buffer rechazó algunos posts: " + " | ".join(ERRORS))
 
 if __name__ == "__main__":
     main()
