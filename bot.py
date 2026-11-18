@@ -166,7 +166,8 @@ Audio (transcripción automática, puede tener errores): "{transcript}"
 
 Decide si el clip sirve y, si sirve, explica QUÉ se ve, para que el vídeo tenga sentido para alguien que no ha visto el directo.
 
-Descártalo (usable=false) si: la mayor parte es la cámara del streamer y no el juego; es una cinemática o momento de la historia (spoiler); es un menú, pantalla de carga o algo sin interés; o no se entiende qué pasa.
+Sé exigente: solo vale si EN EL JUEGO pasa algo concreto que se vea (un detalle, una física, un bug, algo gracioso, un truco, un paisaje impresionante).
+Descártalo (usable=false) si: es sobre todo el streamer hablando u opinando aunque se vea el juego de fondo; la mayor parte es la cámara del streamer y no el juego; es una cinemática o momento de la historia (spoiler); es un menú, pantalla de carga o algo sin interés; o no se entiende qué pasa.
 
 Reglas para los textos: español de España, natural, sin inventar datos que no se vean u oigan en el clip; si no estás seguro de algo, no lo afirmes. Nada de spoilers de la historia.
 
@@ -417,6 +418,16 @@ def schedule(chans, video_url, title, text, due):
         if DRY_RUN:
             log("DRY_RUN", svc, json.dumps(inp, ensure_ascii=False)[:300]); continue
         res = buffer(CREATE, {"input": inp})["createPost"]
+        # TikTok a veces no lee el vídeo a la primera: reintenta y prueba otro enlace
+        alt = video_url.replace("https://cdn.jsdelivr.net/gh/", "https://raw.githubusercontent.com/").replace("@", "/", 1) \
+            if "cdn.jsdelivr.net/gh/" in video_url else video_url
+        for attempt, url in enumerate([video_url, alt, alt]):
+            if not (res.get("message") and "could not be read" in res["message"].lower()):
+                break
+            log(f"{svc}: Buffer no pudo leer el vídeo, reintento {attempt + 1}")
+            time.sleep(30)
+            inp["assets"][0]["video"]["url"] = url
+            res = buffer(CREATE, {"input": inp})["createPost"]
         if "message" in res and res["message"]:
             log(f"ERROR Buffer {svc}:", res["message"])
             ERRORS.append(f"{svc}: {res['message']}")
