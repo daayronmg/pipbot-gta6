@@ -1,0 +1,27 @@
+[pipbot] 4 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-2.5-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features a
+[pipbot] Gemini gemini-2.5-flash-lite: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest 
+[pipbot] Análisis IA falló: gemini-2.5-flash-lite: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest 
+[pipbot] Montado: pip_2361978734.mp4 | GTA 6 ES UNA LOCURA
+[pipbot] IA: rubius usable=True nota=8 · Es un momento divertido de Rubius cometiendo un error con los controles en pleno mar.
+[pipbot] Montado: pip_1516465023.mp4 | ¡CASI SE CAE DEL BARCO!
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] Programado en youtube para 18/11 18:41 UTC
+[pipbot] Programado en youtube para 18/11 19:56 UTC
