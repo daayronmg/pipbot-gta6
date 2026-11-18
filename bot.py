@@ -90,7 +90,7 @@ def find_clips_public(state):
             title = (e.get("title") or "").lower()
             if not cid or cid in seen: continue
             if any(b in title for b in BLOCK): continue
-            if not any(w in title for w in GAME_WORDS): continue
+            if not HAS_AI and not any(w in title for w in GAME_WORDS): continue  # con IA lo decide ella
             good.append({"id": cid, "url": e.get("url") or f"https://clips.twitch.tv/{cid}",
                          "title": e.get("title") or "", "broadcaster_name": ch,
                          "view_count": e.get("view_count") or 0, "duration": e.get("duration") or 30})
@@ -167,7 +167,7 @@ Audio (transcripción automática, puede tener errores): "{transcript}"
 Decide si el clip sirve y, si sirve, explica QUÉ se ve, para que el vídeo tenga sentido para alguien que no ha visto el directo.
 
 Sé exigente: solo vale si EN EL JUEGO pasa algo concreto que se vea (un detalle, una física, un bug, algo gracioso, un truco, un paisaje impresionante).
-Descártalo (usable=false) si: es sobre todo el streamer hablando u opinando aunque se vea el juego de fondo; la mayor parte es la cámara del streamer y no el juego; es una cinemática o momento de la historia (spoiler); es un menú, pantalla de carga o algo sin interés; o no se entiende qué pasa.
+Descártalo (usable=false) si: no es GTA 6 (otro juego, Just Chatting…); es sobre todo el streamer hablando u opinando aunque se vea el juego de fondo; la mayor parte es la cámara del streamer y no el juego; es una cinemática o momento de la historia (spoiler); es un menú, pantalla de carga o algo sin interés; o no se entiende qué pasa.
 
 Reglas para los textos: español de España, natural, sin inventar datos que no se vean u oigan en el clip; si no estás seguro de algo, no lo afirmes. Nada de spoilers de la historia.
 
