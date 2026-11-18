@@ -31,8 +31,12 @@ TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "youtube
 GAME_NAME = os.environ.get("GAME_NAME", "Grand Theft Auto VI")
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-5-5")
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODELS = [m.strip() for m in os.environ.get("GEMINI_MODEL",
+    "gemini-3-flash-preview,gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m.strip()]
+HAS_AI = bool(ANTHROPIC_KEY or GEMINI_KEY)
 # Con IA se analizan más candidatos y se quedan solo los que tienen sentido
-N_CANDIDATES = int(os.environ.get("N_CANDIDATES", "8")) if ANTHROPIC_KEY else CLIPS_PER_RUN
+N_CANDIDATES = int(os.environ.get("N_CANDIDATES", "8")) if HAS_AI else CLIPS_PER_RUN
 
 W, H = 1080, 1920
 INK = (35, 18, 52); YEL = (255, 214, 64); PINK = (255, 64, 150); WHITE = (255, 255, 255)
@@ -176,10 +180,38 @@ Responde SOLO con este JSON:
  "texto": "texto del post para TikTok/YouTube: 1-2 frases + pregunta para comentarios, sin hashtags",
  "nota": número del 1 al 10 de lo viral que puede ser}}"""
 
+def analyze_gemini(clip, src):
+    """Gemini ve el vídeo entero con audio (plan gratuito de Google AI Studio)."""
+    import base64
+    small = WORK / f"{clip['id']}_small.mp4"
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(src), "-t", "60", "-vf", "scale=-2:360", "-r", "15",
+                    "-c:v", "libx264", "-crf", "32", "-preset", "veryfast", "-c:a", "aac", "-b:a", "48k", "-ac", "1", str(small)], check=True)
+    data = base64.b64encode(small.read_bytes()).decode()
+    prompt = ANALYSIS_PROMPT.format(streamer=clip["broadcaster_name"], title=clip["title"].replace('"', "'"),
+                                    transcript="(escúchalo tú en el vídeo)").replace("fotogramas de un clip", "un clip")
+    body = {"contents": [{"parts": [{"inline_data": {"mime_type": "video/mp4", "data": data}}, {"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.6}}
+    last = None
+    for model in GEMINI_MODELS:
+        r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                          params={"key": GEMINI_KEY}, json=body, timeout=180)
+        if r.status_code == 200:
+            txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+            return json.loads(re.search(r"\{.*\}", txt, re.S).group(0))
+        last = f"{model}: {r.status_code} {r.text[:200]}"
+        log("Gemini", last)
+        if r.status_code == 429:
+            time.sleep(20)
+    raise RuntimeError(last)
+
 def analyze(clip, src):
     """Devuelve dict con el análisis o None si no hay IA."""
-    if not ANTHROPIC_KEY:
+    if not HAS_AI:
         return None
+    if not ANTHROPIC_KEY:
+        a = analyze_gemini(clip, src)
+        log(f"IA: {clip['broadcaster_name']} usable={a.get('usable')} nota={a.get('nota')} · {a.get('motivo')}")
+        return a
     transcript = transcribe(src)
     content = [{"type": "image", "source": {"type": "base64", "media_type": "image/jpeg", "data": b}} for b in frames_b64(src)]
     content.append({"type": "text", "text": ANALYSIS_PROMPT.format(
