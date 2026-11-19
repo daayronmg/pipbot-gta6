@@ -458,6 +458,9 @@ def main():
             src = download(c)
             if any(m[0]["broadcaster_name"] == c["broadcaster_name"] for m in made):
                 continue  # variedad: un clip por streamer en cada tanda
+            last = state.get("last_by_streamer", {}).get(c["broadcaster_name"], 0)
+            if time.time() - last < 2 * 3600:
+                continue  # evita repetir el mismo momento con clips distintos del mismo streamer
             a = None
             try:
                 a = analyze(c, src)
@@ -495,6 +498,7 @@ def main():
         schedule(chans, urls.get(out.name, f"DRY/{out.name}"), title, text, due)
         state["posted"].append(c["id"])
         state["today_count"] = state.get("today_count", 0) + 1
+        state.setdefault("last_by_streamer", {})[c["broadcaster_name"]] = time.time()
     save_state(state)
     if ERRORS:
         sys.exit("Buffer rechazó algunos posts: " + " | ".join(ERRORS))
