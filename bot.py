@@ -25,7 +25,8 @@ BUFFER_KEY = os.environ["BUFFER_API_KEY"]
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 DRAFT_MODE = os.environ.get("DRAFT_MODE", "false").lower() == "true"
-CLIPS_PER_RUN = int(os.environ.get("CLIPS_PER_RUN", "2"))
+CLIPS_PER_RUN = int(os.environ.get("CLIPS_PER_RUN", "3"))
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "12"))
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "6"))
 TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "youtube,tiktok,instagram").split(",")]
 GAME_NAME = os.environ.get("GAME_NAME", "Grand Theft Auto VI")
@@ -36,7 +37,7 @@ GEMINI_MODELS = [m.strip() for m in os.environ.get("GEMINI_MODEL",
     "gemini-3-flash-preview,gemini-3.1-flash-lite-preview,gemini-3-flash-preview").split(",") if m.strip()]
 HAS_AI = bool(ANTHROPIC_KEY or GEMINI_KEY)
 # Con IA se analizan más candidatos y se quedan solo los que tienen sentido
-N_CANDIDATES = int(os.environ.get("N_CANDIDATES", "8")) if HAS_AI else CLIPS_PER_RUN
+N_CANDIDATES = int(os.environ.get("N_CANDIDATES", "10")) if HAS_AI else CLIPS_PER_RUN
 
 W, H = 1080, 1920
 INK = (35, 18, 52); YEL = (255, 214, 64); PINK = (255, 64, 150); WHITE = (255, 255, 255)
@@ -438,6 +439,13 @@ def schedule(chans, video_url, title, text, due):
 # ---------------- main ----------------
 def main():
     state = load_state()
+    today = dt.date.today().isoformat()
+    if state.get("day") != today:
+        state["day"], state["today_count"] = today, 0
+    global CLIPS_PER_RUN
+    CLIPS_PER_RUN = min(CLIPS_PER_RUN, MAX_PER_DAY - state.get("today_count", 0))
+    if CLIPS_PER_RUN <= 0:
+        log(f"Ya van {state['today_count']} clips hoy (máximo {MAX_PER_DAY})"); save_state(state); return
     clips = find_clips(state)
     if not clips:
         log("Nada nuevo que publicar"); return
@@ -481,11 +489,12 @@ def main():
     urls = {} if DRY_RUN else publish_media([m[1] for m in made])
     chans = buffer_channels()
     now = dt.datetime.now(dt.timezone.utc)
-    gap = int(os.environ.get("MINUTES_BETWEEN_POSTS", "75"))
+    gap = int(os.environ.get("MINUTES_BETWEEN_POSTS", "20"))
     for i, (c, out, title, text) in enumerate(made):
         due = now + dt.timedelta(minutes=20 + i * gap)
         schedule(chans, urls.get(out.name, f"DRY/{out.name}"), title, text, due)
         state["posted"].append(c["id"])
+        state["today_count"] = state.get("today_count", 0) + 1
     save_state(state)
     if ERRORS:
         sys.exit("Buffer rechazó algunos posts: " + " | ".join(ERRORS))
