@@ -25,8 +25,8 @@ BUFFER_KEY = os.environ["BUFFER_API_KEY"]
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 DRAFT_MODE = os.environ.get("DRAFT_MODE", "false").lower() == "true"
-CLIPS_PER_RUN = int(os.environ.get("CLIPS_PER_RUN", "3"))
-MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "24"))
+CLIPS_PER_RUN = int(os.environ.get("CLIPS_PER_RUN", "4"))
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "48"))
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "6"))
 TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "youtube,tiktok,instagram").split(",")]
 GAME_NAME = os.environ.get("GAME_NAME", "Grand Theft Auto VI")
@@ -489,7 +489,7 @@ def main():
     urls = {} if DRY_RUN else publish_media([m[1] for m in made])
     chans = buffer_channels()
     now = dt.datetime.now(dt.timezone.utc)
-    gap = int(os.environ.get("MINUTES_BETWEEN_POSTS", "20"))
+    gap = int(os.environ.get("MINUTES_BETWEEN_POSTS", "12"))
     for i, (c, out, title, text) in enumerate(made):
         due = now + dt.timedelta(minutes=20 + i * gap)
         schedule(chans, urls.get(out.name, f"DRY/{out.name}"), title, text, due)
