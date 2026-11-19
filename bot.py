@@ -19,7 +19,7 @@ TWITCH_ID = os.environ.get("TWITCH_CLIENT_ID", "")
 TWITCH_SECRET = os.environ.get("TWITCH_CLIENT_SECRET", "")
 # Sin claves de Twitch: se leen los clips públicos de estos canales con yt-dlp
 STREAMERS = [s.strip() for s in os.environ.get("STREAMERS",
-    "auronplay,elxokas,ibai,thegrefg,rubius,spursito,illojuan,knekro,perxitaa,zeling").split(",") if s.strip()]
+    "auronplay,elxokas,ibai,thegrefg,rubius,spursito,illojuan,knekro,perxitaa,zeling,werlyb,vegetta777,willyrex,alexby11,elmariana,spreen,carreraaa,ampeterby7").split(",") if s.strip()]
 GAME_WORDS = ["gta", "vice", "leonida", "lucia", "jason"]
 BUFFER_KEY = os.environ["BUFFER_API_KEY"]
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
@@ -81,7 +81,7 @@ def find_clips_public(state):
     seen = set(state["posted"]); good = []
     for ch in STREAMERS:
         url = f"https://www.twitch.tv/{ch}/clips?filter=clips&range=24hr"
-        r = subprocess.run(["yt-dlp", "--flat-playlist", "-J", "--playlist-end", "15", url],
+        r = subprocess.run(["yt-dlp", "--flat-playlist", "-J", "--playlist-end", "20", url],
                            capture_output=True, text=True)
         if r.returncode != 0:
             log("No pude leer clips de", ch); continue
@@ -94,8 +94,8 @@ def find_clips_public(state):
             good.append({"id": cid, "url": e.get("url") or f"https://clips.twitch.tv/{cid}",
                          "title": e.get("title") or "", "broadcaster_name": ch,
                          "view_count": e.get("view_count") or 0, "duration": e.get("duration") or 30})
-            if sum(1 for g in good if g["broadcaster_name"] == ch) >= 2:
-                break  # máximo 2 candidatos por streamer
+            if sum(1 for g in good if g["broadcaster_name"] == ch) >= 3:
+                break  # máximo 3 candidatos por streamer
     good.sort(key=lambda c: c["view_count"], reverse=True)
     log(f"{len(good)} clips válidos (modo sin claves)")
     return good[:N_CANDIDATES]
