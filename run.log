@@ -1,27 +1,11 @@
-[pipbot] 27 clips válidos (modo sin claves)
-[pipbot] IA: auronplay usable=False nota=0 · El clip es íntegramente de la categoría 'Just Chatting'. Auronplay está hablando a cámara sobre otros streamers y no hay nada de contenido de GTA 6.
-[pipbot] IA: illojuan usable=True nota=8 · Muestra el detalle de la animación y el cambio en el modelo 3D de la fruta al ser consumida en tiempo real.
-[pipbot] Montado: pip_3335292422.mp4 | ¡MIRA ESTE DETALLE AL COMER!
-[pipbot] IA: rubius usable=True nota=9 · Muestra una mecánica de interacción realista en la casa con un minijuego de ducha y desnudez total.
-[pipbot] Montado: pip_3644394843.mp4 | ¡HAN PUESTO MINIJUEGO DE DUCHA!
-[pipbot] IA: alexby11 usable=True nota=8 · Es una escena interactiva con diálogos cómicos que muestra la personalidad de los personajes y el humor de la saga.
-[pipbot] Montado: pip_79563333.mp4 | JASON NO PUEDE CONCENTRARSE ASÍ
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: auronplay usable=True nota=8 · Muestra una mecánica jugable de pesca/recogida de suministros desde una lancha que es muy característica del nuevo GTA 6.
-[pipbot] Montado: pip_1066534660.mp4 | ¡ASÍ SE RECOGEN SUMINISTROS EN GTA 6!
+[pipbot] 24 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=False nota=0 · El clip es contenido de Just Chatting; el streamer solo habla a cámara sobre la banda sonora y no hay gameplay de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip muestra principalmente la interfaz de usuario de la consola y la reacción de los streamers, sin mostrar gameplay, mecánicas o detalles dentro del mundo de GTA 6.
+[pipbot] IA: vegetta777 usable=True nota=7 · Muestra el funcionamiento detallado y la interactividad de las redes sociales in-game, un detalle de inmersión clave.
+[pipbot] Montado: pip_3794583848.mp4 | PUEDES DAR LIKE A LOS NPC
+[pipbot] IA: elmariana usable=False nota=0 · Es un clip de un streamer reaccionando a otro navegando por los menús de PS5, no muestra gameplay ni detalles internos del juego.
+[pipbot] IA: thegrefg usable=False nota=0 · El clip transcurre íntegramente en el menú de la consola PS5 y se centra en la cámara del streamer, sin mostrar gameplay o mecánicas internas del juego.
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 19/11 12:03 UTC
-[pipbot] Programado en youtube para 19/11 12:03 UTC
-[pipbot] Programado en tiktok para 19/11 12:15 UTC
-[pipbot] Programado en youtube para 19/11 12:15 UTC
-[pipbot] Programado en tiktok para 19/11 12:27 UTC
-[pipbot] Programado en youtube para 19/11 12:27 UTC
-[pipbot] Programado en tiktok para 19/11 12:39 UTC
-[pipbot] Programado en youtube para 19/11 12:39 UTC
+[pipbot] Programado en tiktok para 19/11 13:09 UTC
+[pipbot] ERROR Buffer youtube: You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.
+Buffer rechazó algunos posts: youtube: You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.
