@@ -512,9 +512,14 @@ CREATE = """mutation($input: CreatePostInput!) {
 
 ERRORS = []
 
-def schedule(chans, video_url, title, text, due):
+YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "2"))  # Buffer/YouTube solo dejan 2 al día
+
+def schedule(chans, video_url, title, text, due, state=None, nota=0):
     for c in chans:
         svc = c["service"].lower()
+        if svc == "youtube" and state is not None:
+            if state.get("yt_count", 0) >= YT_PER_DAY or (nota and nota < 8 and state.get("yt_count", 0) >= 1):
+                log("YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok"); continue
         inp = {"text": text, "channelId": c["id"], "schedulingType": "automatic",
                "mode": "customScheduled", "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
                "assets": [{"video": {"url": video_url, "metadata": {"thumbnailOffset": 1500}}}]}
@@ -539,7 +544,13 @@ def schedule(chans, video_url, title, text, due):
             res = buffer(CREATE, {"input": inp})["createPost"]
         if "message" in res and res["message"]:
             log(f"ERROR Buffer {svc}:", res["message"])
+            if "maximum number of posts" in res["message"]:
+                if state is not None and svc == "youtube": state["yt_count"] = YT_PER_DAY
+                continue  # límite diario de la plataforma: no es un fallo del bot
             ERRORS.append(f"{svc}: {res['message']}")
+            continue
+        if svc == "youtube" and state is not None:
+            state["yt_count"] = state.get("yt_count", 0) + 1
         else:
             log(f"Programado en {svc} para {due:%d/%m %H:%M} UTC")
 
@@ -548,7 +559,7 @@ def main():
     state = load_state()
     today = dt.date.today().isoformat()
     if state.get("day") != today:
-        state["day"], state["today_count"] = today, 0
+        state["day"], state["today_count"], state["yt_count"] = today, 0, 0
     global CLIPS_PER_RUN
     CLIPS_PER_RUN = min(CLIPS_PER_RUN, MAX_PER_DAY - state.get("today_count", 0))
     if CLIPS_PER_RUN <= 0:
@@ -598,18 +609,19 @@ def main():
             safe = re.sub(r"[^A-Za-z0-9_-]", "", c["id"])[:60]
             out = MEDIA / f"pip_{safe}.mp4"
             render(src, ov, out, voice if words else None, words)
-            made.append((c, out, title, text))
+            made.append((c, out, title, text, float((a or {}).get('nota') or 0)))
             log("Montado:", out.name, "|", hook)
         except Exception as e:
             log("Fallo con el clip", c["id"], e)
     if not made: return
     urls = {} if DRY_RUN else publish_media([m[1] for m in made])
+    made.sort(key=lambda m: m[4], reverse=True)  # el mejor primero (se lleva el hueco de YouTube)
     chans = buffer_channels()
     now = dt.datetime.now(dt.timezone.utc)
     gap = int(os.environ.get("MINUTES_BETWEEN_POSTS", "12"))
-    for i, (c, out, title, text) in enumerate(made):
+    for i, (c, out, title, text, nota) in enumerate(made):
         due = now + dt.timedelta(minutes=20 + i * gap)
-        schedule(chans, urls.get(out.name, f"DRY/{out.name}"), title, text, due)
+        schedule(chans, urls.get(out.name, f"DRY/{out.name}"), title, text, due, state, nota)
         state["posted"].append(c["id"])
         state["today_count"] = state.get("today_count", 0) + 1
         state.setdefault("last_by_streamer", {})[c["broadcaster_name"]] = time.time()
