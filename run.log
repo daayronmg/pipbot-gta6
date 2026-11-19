@@ -1,27 +1,27 @@
-[pipbot] 26 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=9 · Muestra el realismo de las físicas de movimiento de los personajes, un tema muy viral y comentado por la comunidad.
-[pipbot] Montado: pip_3868405858.mp4 | LAS FÍSICAS DE GTA 6 SON INCREÍBLES
-[pipbot] IA: illojuan usable=False nota=0 · El clip pertenece a la categoría Just Chatting y solo muestra al streamer hablando a cámara, sin imágenes de gameplay de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
+[pipbot] 27 clips válidos (modo sin claves)
+[pipbot] IA: auronplay usable=False nota=0 · El clip es íntegramente de la categoría 'Just Chatting'. Auronplay está hablando a cámara sobre otros streamers y no hay nada de contenido de GTA 6.
+[pipbot] IA: illojuan usable=True nota=8 · Muestra el detalle de la animación y el cambio en el modelo 3D de la fruta al ser consumida en tiempo real.
+[pipbot] Montado: pip_3335292422.mp4 | ¡MIRA ESTE DETALLE AL COMER!
+[pipbot] IA: rubius usable=True nota=9 · Muestra una mecánica de interacción realista en la casa con un minijuego de ducha y desnudez total.
+[pipbot] Montado: pip_3644394843.mp4 | ¡HAN PUESTO MINIJUEGO DE DUCHA!
+[pipbot] IA: alexby11 usable=True nota=8 · Es una escena interactiva con diálogos cómicos que muestra la personalidad de los personajes y el humor de la saga.
+[pipbot] Montado: pip_79563333.mp4 | JASON NO PUEDE CONCENTRARSE ASÍ
+[pipbot] Gemini gemini-3-flash-preview: 503 {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra un detalle cómico y realista de la IA de los NPC en GTA 6 al interactuar con el entorno.
-[pipbot] Montado: pip_2541821160.mp4 | ¡LA IA DE GTA 6 ES INCREÍBLE!
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=9 · El streamer borra accidentalmente el juego de su consola pensando que era un menú de opciones.
-[pipbot] Montado: pip_901973712.mp4 | ¡ILLOJUAN BORRA GTA 6 POR ERROR!
-[pipbot] IA: vegetta777 usable=True nota=8 · Muestra un glitch gracioso en la animación al interactuar con la nevera que el streamer comenta.
-[pipbot] Montado: pip_3183524700.mp4 | ¡EL PRIMER BUG DE GTA 6!
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una mecánica jugable de pesca/recogida de suministros desde una lancha que es muy característica del nuevo GTA 6.
+[pipbot] Montado: pip_1066534660.mp4 | ¡ASÍ SE RECOGEN SUMINISTROS EN GTA 6!
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 19/11 03:32 UTC
-[pipbot] Programado en youtube para 19/11 03:32 UTC
-[pipbot] Programado en tiktok para 19/11 03:44 UTC
-[pipbot] Programado en youtube para 19/11 03:44 UTC
-[pipbot] Programado en tiktok para 19/11 03:56 UTC
-[pipbot] Programado en youtube para 19/11 03:56 UTC
-[pipbot] Programado en tiktok para 19/11 04:08 UTC
-[pipbot] Programado en youtube para 19/11 04:08 UTC
+[pipbot] Programado en tiktok para 19/11 12:03 UTC
+[pipbot] Programado en youtube para 19/11 12:03 UTC
+[pipbot] Programado en tiktok para 19/11 12:15 UTC
+[pipbot] Programado en youtube para 19/11 12:15 UTC
+[pipbot] Programado en tiktok para 19/11 12:27 UTC
+[pipbot] Programado en youtube para 19/11 12:27 UTC
+[pipbot] Programado en tiktok para 19/11 12:39 UTC
+[pipbot] Programado en youtube para 19/11 12:39 UTC
