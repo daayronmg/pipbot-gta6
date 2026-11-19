@@ -281,6 +281,13 @@ Style: Pip,Poppins,84,&H00FFFFFF,&H00FFFFFF,&H00341223,&H96000000,-1,0,0,0,100,1
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     clean = lambda w: re.sub(r"[{}\\]", "", w).upper()
+    merged = []
+    for st, en, w in words:  # que "GTA 6" no se parta
+        if merged and merged[-1][2].upper().strip(".,") == "GTA" and w.strip(".,!?") in ("6", "VI"):
+            merged[-1] = (merged[-1][0], en, merged[-1][2] + "\u00a0" + w)
+        else:
+            merged.append((st, en, w))
+    words = merged
     groups = [words[i:i + 3] for i in range(0, len(words), 3)]
     lines = []
     for g in groups:
