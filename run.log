@@ -1,9 +1,17 @@
-[pipbot] 15 clips válidos (modo sin claves)
-[pipbot] IA: thegrefg usable=False nota=1 · El vídeo no muestra nada relacionado con GTA 6; es el streamer thegrefg en la categoría de Just Chatting enseñando una silla de escritorio.
-[pipbot] IA: illojuan usable=False nota=0 · No es gameplay real de GTA 6; se trata de una broma o montaje en el menú de la consola y se centra en la reacción del streamer.
-[pipbot] IA: illojuan usable=False nota=3 · No es gameplay real de GTA 6, se trata de un menú de consola modificado/falso y el interés del clip es puramente la reacción del streamer.
-[pipbot] IA: thegrefg usable=False nota=0 · El clip no muestra contenido de GTA 6 ni de ningún otro videojuego; se trata de una sección de Just Chatting donde el streamer mira sillas gaming.
-[pipbot] IA: rubius usable=False nota=1 · No es GTA 6; las imágenes mostradas pertenecen al juego Dead Island 2 (misión de Mandy y Jason).
-[pipbot] Análisis IA falló: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)
-[pipbot] Análisis IA falló: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)
-[pipbot] IA: auronplay usable=False nota=1 · No es gameplay de GTA 6; se trata del streamer en su categoría de Just Chatting hablando con la audiencia.
+[pipbot] 29 clips válidos (modo sin claves)
+[pipbot] IA: illojuan usable=False nota=7 · No se trata de GTA 6 real (el juego no ha salido) y el clip muestra únicamente la interfaz de la consola, no gameplay.
+[pipbot] IA: illojuan usable=False nota=2 · No es contenido real de GTA 6, se trata de una interfaz falsa/montaje en los menús de PS5 y la reacción del streamer.
+[pipbot] IA: vegetta777 usable=True nota=8 · Muestra el sistema de interacción y las reacciones dinámicas de los NPC en interiores.
+[pipbot] Montado: pip_58445163.mp4 | ¡CUIDADO CON LO QUE DICES!
+[pipbot] IA: illojuan usable=False nota=2 · No es gameplay real de GTA 6; se trata de un menú de PS5 con un icono falso y el streamer bromeando.
+[pipbot] IA: thegrefg usable=False nota=3 · El clip se centra en la reacción del streamer a un vídeo de otro creador (peereeira7) y no muestra contenido real o relevante de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=False nota=1 · El clip es de un streamer en 'Just Chatting' mostrando una página web de sillas gaming, no es contenido de GTA 6.
+[pipbot] IA: rubius usable=False nota=3 · No es metraje real de GTA 6; se trata de una animación fan-made o un mod hiperrealista de otro juego que utiliza los modelos de los protagonistas.
+[pipbot] IA: thegrefg usable=False nota=3 · El clip pertenece a la categoría 'Just Chatting' y no muestra gameplay ni contenido dentro del juego GTA 6, centrándose en una promoción de KFC en la vida real.
+[pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
+[pipbot] Programado en tiktok para 19/11 02:32 UTC
+[pipbot] Programado en youtube para 19/11 02:32 UTC
