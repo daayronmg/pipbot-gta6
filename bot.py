@@ -26,7 +26,7 @@ ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 DRAFT_MODE = os.environ.get("DRAFT_MODE", "false").lower() == "true"
 CLIPS_PER_RUN = int(os.environ.get("CLIPS_PER_RUN", "3"))
-MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "12"))
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "24"))
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "6"))
 TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "youtube,tiktok,instagram").split(",")]
 GAME_NAME = os.environ.get("GAME_NAME", "Grand Theft Auto VI")
