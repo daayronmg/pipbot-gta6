@@ -160,6 +160,7 @@ def frames_b64(src, n=6):
     return out
 
 ANALYSIS_PROMPT = """Eres el editor de "Pip te lo explica", una página fan de GTA 6 en español de España (TikTok/YouTube Shorts).
+CONTEXTO IMPORTANTE: GTA 6 (Grand Theft Auto VI) YA HA SALIDO: se lanzó el 19 de noviembre de 2026 en PS5 y Xbox Series, y hoy es {today}. Los streamers están jugándolo de verdad. No descartes un clip por pensar que el juego no ha salido o que es un mod o un montaje: si se ve un juego con estética de Vice City / Leonida (Florida), con Jason o Lucía, es GTA 6 real.
 Te paso fotogramas de un clip de Twitch del streamer {streamer}, su título y lo que se dice en el audio.
 Título del clip: "{title}"
 Audio (transcripción automática, puede tener errores): "{transcript}"
@@ -188,7 +189,7 @@ def analyze_gemini(clip, src):
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(src), "-t", "60", "-vf", "scale=-2:360", "-r", "15",
                     "-c:v", "libx264", "-crf", "32", "-preset", "veryfast", "-c:a", "aac", "-b:a", "48k", "-ac", "1", str(small)], check=True)
     data = base64.b64encode(small.read_bytes()).decode()
-    prompt = ANALYSIS_PROMPT.format(streamer=clip["broadcaster_name"], title=clip["title"].replace('"', "'"),
+    prompt = ANALYSIS_PROMPT.format(today=dt.date.today().isoformat(), streamer=clip["broadcaster_name"], title=clip["title"].replace('"', "'"),
                                     transcript="(escúchalo tú en el vídeo)").replace("fotogramas de un clip", "un clip")
     body = {"contents": [{"parts": [{"inline_data": {"mime_type": "video/mp4", "data": data}}, {"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.6}}
@@ -216,7 +217,7 @@ def analyze(clip, src):
     transcript = transcribe(src)
     content = [{"type": "image", "source": {"type": "base64", "media_type": "image/jpeg", "data": b}} for b in frames_b64(src)]
     content.append({"type": "text", "text": ANALYSIS_PROMPT.format(
-        streamer=clip["broadcaster_name"], title=clip["title"].replace('"', "'"), transcript=transcript.replace('"', "'"))})
+        today=dt.date.today().isoformat(), streamer=clip["broadcaster_name"], title=clip["title"].replace('"', "'"), transcript=transcript.replace('"', "'"))})
     r = requests.post("https://api.anthropic.com/v1/messages", timeout=120, headers={
         "x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"},
         json={"model": ANTHROPIC_MODEL, "max_tokens": 600, "messages": [{"role": "user", "content": content}]})

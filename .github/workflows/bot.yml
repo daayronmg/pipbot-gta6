@@ -2,7 +2,7 @@ name: Pip GTA6 bot
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # cada 3 horas
+    - cron: "17 */2 * * *"  # cada 2 horas (minuto 17 para evitar colas de GitHub)
   workflow_dispatch: {}      # botón para lanzarlo a mano
   push:
     paths: ["trigger.txt"]  # tocar este archivo lo lanza al momento
