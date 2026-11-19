@@ -1,2 +1,9 @@
-[pipbot] 1 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=False nota=3 · No se muestra gameplay de GTA 6 ni detalles del juego; es solo el streamer comentando la noticia del hacker con su foto de fondo.
+[pipbot] 15 clips válidos (modo sin claves)
+[pipbot] IA: thegrefg usable=False nota=1 · El vídeo no muestra nada relacionado con GTA 6; es el streamer thegrefg en la categoría de Just Chatting enseñando una silla de escritorio.
+[pipbot] IA: illojuan usable=False nota=0 · No es gameplay real de GTA 6; se trata de una broma o montaje en el menú de la consola y se centra en la reacción del streamer.
+[pipbot] IA: illojuan usable=False nota=3 · No es gameplay real de GTA 6, se trata de un menú de consola modificado/falso y el interés del clip es puramente la reacción del streamer.
+[pipbot] IA: thegrefg usable=False nota=0 · El clip no muestra contenido de GTA 6 ni de ningún otro videojuego; se trata de una sección de Just Chatting donde el streamer mira sillas gaming.
+[pipbot] IA: rubius usable=False nota=1 · No es GTA 6; las imágenes mostradas pertenecen al juego Dead Island 2 (misión de Mandy y Jason).
+[pipbot] Análisis IA falló: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)
+[pipbot] Análisis IA falló: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)
+[pipbot] IA: auronplay usable=False nota=1 · No es gameplay de GTA 6; se trata del streamer en su categoría de Just Chatting hablando con la audiencia.
