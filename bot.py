@@ -27,6 +27,7 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "")
 DRAFT_MODE = os.environ.get("DRAFT_MODE", "false").lower() == "true"
 CLIPS_PER_RUN = int(os.environ.get("CLIPS_PER_RUN", "4"))
 MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "48"))
+MIN_SCORE = float(os.environ.get("MIN_SCORE", "7"))
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "6"))
 TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "youtube,tiktok,instagram").split(",")]
 GAME_NAME = os.environ.get("GAME_NAME", "Grand Theft Auto VI")
@@ -160,28 +161,26 @@ def frames_b64(src, n=6):
         out.append(base64.b64encode(jpg.read_bytes()).decode())
     return out
 
-ANALYSIS_PROMPT = """Eres el editor de "Pip te lo explica", una página fan de GTA 6 en español de España (TikTok/YouTube Shorts).
-CONTEXTO IMPORTANTE: GTA 6 (Grand Theft Auto VI) YA HA SALIDO: se lanzó el 19 de noviembre de 2026 en PS5 y Xbox Series, y hoy es {today}. Los streamers están jugándolo de verdad. No descartes un clip por pensar que el juego no ha salido o que es un mod o un montaje: si se ve un juego con estética de Vice City / Leonida (Florida), con Jason o Lucía, es GTA 6 real.
-Te paso fotogramas de un clip de Twitch del streamer {streamer}, su título y lo que se dice en el audio.
-Título del clip: "{title}"
-Audio (transcripción automática, puede tener errores): "{transcript}"
+ANALYSIS_PROMPT = """Eres el mejor clipper de habla hispana y el guionista de "Pip te lo explica": un científico loco animado (el Profe Pip) que comenta clips de GTA 6 en TikTok y YouTube Shorts para España.
+CONTEXTO IMPORTANTE: GTA 6 (Grand Theft Auto VI) YA HA SALIDO: se lanzó el 19 de noviembre de 2026 en PS5 y Xbox Series, y hoy es {today}. Los streamers están jugándolo de verdad. No descartes un clip por pensar que el juego no ha salido o que es un mod: si se ve un juego con estética de Vice City / Leonida (Florida), con Jason o Lucía, es GTA 6 real.
+Te paso un clip de Twitch del streamer {streamer}. Título del clip: "{title}". Audio: "{transcript}"
 
-Decide si el clip sirve y, si sirve, explica QUÉ se ve, para que el vídeo tenga sentido para alguien que no ha visto el directo.
+1) FILTRO (sé muy exigente, solo publicamos lo que un clipper top publicaría):
+Descártalo (usable=false) si: no es GTA 6 (otro juego, Just Chatting…); es sobre todo el streamer hablando u opinando; la mayor parte es su cámara; es una cinemática o momento de la historia (spoiler); es un menú o pantalla de carga; no pasa nada concreto; o no se entiende sin haber visto el directo.
+Vale si EN EL JUEGO pasa algo concreto: un detalle escondido, una física loca, un bug, una reacción de la IA, algo muy gracioso, un truco útil o algo que la gente no sabía que se podía hacer.
 
-Sé exigente: solo vale si EN EL JUEGO pasa algo concreto que se vea (un detalle, una física, un bug, algo gracioso, un truco, un paisaje impresionante).
-Descártalo (usable=false) si: no es GTA 6 (otro juego, Just Chatting…); es sobre todo el streamer hablando u opinando aunque se vea el juego de fondo; la mayor parte es la cámara del streamer y no el juego; es una cinemática o momento de la historia (spoiler); es un menú, pantalla de carga o algo sin interés; o no se entiende qué pasa.
-
-Reglas para los textos: español de España, natural, sin inventar datos que no se vean u oigan en el clip; si no estás seguro de algo, no lo afirmes. Nada de spoilers de la historia.
+2) GUION (si vale):
+- gancho: texto en pantalla, MAYÚSCULAS, máximo 6 palabras. Tiene que abrir una pregunta en la cabeza (curiosidad), ser concreto y no contar el final. Prohibido: "increíble", "brutal", "mira esto", "locura", "GTA 6 es…", signos de exclamación dobles.
+  Buenos: "NADIE HA VISTO ESTO EN LA CÁRCEL", "LA POLICÍA TE RECUERDA LA CARA", "NO TOQUES A ESTE NPC", "ROCKSTAR ESCONDIÓ ESTO EN LA DUCHA".
+- narracion: lo que DICE Pip con voz al principio del vídeo (6-9 segundos, 16-28 palabras). Español de España, coloquial y con chispa, como un amigo que te cuenta un secreto ("Atento, que esto no lo ha visto casi nadie…"). Primera frase = gancho hablado (distinto al texto en pantalla). Después explica qué está pasando y por qué mola, con un dato o matiz que solo se ve si te fijas. Termina dejando con ganas de ver el resto ("y mira lo que pasa al final"). Nada de saludos, nada de "hola", nada de "en este vídeo". No inventes mecánicas que no se vean u oigan; si dudas, describe lo que se ve.
+- explicacion: 1 frase corta (máx 90 caracteres) con el dato clave, por si no hay voz.
+- titulo: título de YouTube Short con gancho, máx 70 caracteres, termina en #GTA6.
+- texto: texto del post, 1-2 frases con gancho + una pregunta que provoque comentarios (polémica sana o "¿tú qué harías?"), sin hashtags.
+- nota: del 1 al 10, lo viral que puede ser siendo honesto (un 9-10 solo si es de los que comparte todo el mundo).
 
 Responde SOLO con este JSON:
-{{"usable": true/false,
- "motivo": "por qué lo aceptas o descartas, breve",
- "tipo": "CURIOSIDAD" | "DETALLE" | "TRUCO" | "FÍSICAS" | "GRÁFICOS" | "MOMENTAZO",
- "gancho": "frase en MAYÚSCULAS, máx 7 palabras, que dé ganas de verlo",
- "explicacion": "1 frase de máx 110 caracteres que diga qué es eso que se ve (ej: 'Los NPC reaccionan si les quitas el sitio en la cola del súper')",
- "titulo": "título de YouTube Short, máx 70 caracteres, termina en #GTA6",
- "texto": "texto del post para TikTok/YouTube: 1-2 frases + pregunta para comentarios, sin hashtags",
- "nota": número del 1 al 10 de lo viral que puede ser}}"""
+{{"usable": true/false, "motivo": "breve", "tipo": "CURIOSIDAD" | "DETALLE" | "TRUCO" | "FÍSICAS" | "BUG" | "MOMENTAZO",
+ "gancho": "...", "narracion": "...", "explicacion": "...", "titulo": "...", "texto": "...", "nota": 0}}"""
 
 def analyze_gemini(clip, src):
     """Gemini ve el vídeo entero con audio (plan gratuito de Google AI Studio)."""
@@ -228,6 +227,72 @@ def analyze(clip, src):
     log(f"IA: {clip['broadcaster_name']} usable={a.get('usable')} nota={a.get('nota')} · {a.get('motivo')}")
     return a
 
+# ---------------- voz de Pip ----------------
+PIP_VOICE = os.environ.get("PIP_VOICE", "es-ES-AlvaroNeural")
+
+def pip_voice(text, out_mp3):
+    """Genera la voz de Pip con edge-tts. Devuelve lista de (inicio_s, fin_s, palabra) o None."""
+    try:
+        import asyncio, edge_tts
+        async def go():
+            kw = dict(voice=PIP_VOICE, rate="+14%", pitch="+28Hz")
+            try:
+                com = edge_tts.Communicate(text, boundary="WordBoundary", **kw)
+            except TypeError:
+                com = edge_tts.Communicate(text, **kw)
+            words = []
+            with open(out_mp3, "wb") as f:
+                async for ch in com.stream():
+                    if ch["type"] == "audio":
+                        f.write(ch["data"])
+                    elif ch["type"] == "WordBoundary":
+                        st = ch["offset"] / 1e7; du = ch["duration"] / 1e7
+                        words.append((st, st + du, ch["text"]))
+            return words
+        words = asyncio.run(go())
+        if not pathlib.Path(out_mp3).exists() or pathlib.Path(out_mp3).stat().st_size < 2000:
+            return None
+        if not words:  # sin tiempos por palabra: repartir uniformemente
+            dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(out_mp3)],
+                                       capture_output=True, text=True).stdout or 6)
+            ws = text.split(); step = dur / max(1, len(ws))
+            words = [(i * step, (i + 1) * step, w) for i, w in enumerate(ws)]
+        return words
+    except Exception as e:
+        log("Sin voz de Pip:", e)
+        return None
+
+def ass_time(t):
+    t = max(0, t); h = int(t // 3600); m = int(t % 3600 // 60); sec = t % 60
+    return f"{h}:{m:02d}:{sec:05.2f}"
+
+def build_captions(words, path, delay):
+    """Subtítulos estilo clipper: grupos de 3 palabras, la que suena en amarillo."""
+    head = """[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Pip,Poppins,84,&H00FFFFFF,&H00FFFFFF,&H00341223,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+    clean = lambda w: re.sub(r"[{}\\]", "", w).upper()
+    groups = [words[i:i + 3] for i in range(0, len(words), 3)]
+    lines = []
+    for g in groups:
+        for j, (st, en, w) in enumerate(g):
+            nxt = g[j + 1][0] if j + 1 < len(g) else en + 0.15
+            parts = []
+            for k, (_, _, ww) in enumerate(g):
+                parts.append("{\\c&H40D6FF&}" + clean(ww) + "{\\c&HFFFFFF&}" if k == j else clean(ww))
+            pop = "{\\fscx112\\fscy112\\t(0,90,\\fscx100\\fscy100)}" if j == 0 else ""
+            lines.append(f"Dialogue: 0,{ass_time(st + delay)},{ass_time(nxt + delay)},Pip,,0,0,0,,{{\\pos(540,1395)}}{pop}{' '.join(parts)}")
+    pathlib.Path(path).write_text(head + "\n".join(lines) + "\n", encoding="utf-8")
+
 # ---------------- textos ----------------
 def write_texts(clip, state):
     """Devuelve (gancho para el vídeo, título YouTube, texto del post)."""
@@ -271,7 +336,7 @@ def wrap(text, font, maxw):
     if cur: lines.append(cur)
     return lines
 
-def build_overlay(hook, streamer, path, tipo=None, explicacion=None):
+def build_overlay(hook, streamer, path, tipo=None, explicacion=None, narrated=False):
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     # marca
@@ -302,6 +367,14 @@ def build_overlay(hook, streamer, path, tipo=None, explicacion=None):
         d.rounded_rectangle([x0, 615, x0 + pw, 615 + ph], radius=ph // 2, fill=YEL, outline=INK, width=5)
         d.text((x0 + 25 - b[0], 615 + 14 - b[1]), t, font=f, fill=INK)
     y = 1328
+    if narrated:
+        # Pip habla: los subtítulos van en y≈1395; crédito y aviso a la derecha de Pip
+        f = F(36); t = f"Clip: @{streamer}"; lw = f.getlength(t)
+        d.rounded_rectangle([400, 1500, 400 + lw + 44, 1560], radius=30, fill=(20, 8, 36, 220))
+        d.text((422, 1507), t, font=f, fill=WHITE)
+        f = F(26); t = "Página fan · No afiliada a Rockstar"
+        d.text((404, 1576), t, font=f, fill=(235, 220, 245), stroke_width=3, stroke_fill=INK)
+        im.save(path); return
     # explicación bajo el vídeo
     if explicacion:
         f = F(46); lines = wrap(explicacion.strip(), f, W - 140)[:3]
@@ -320,21 +393,55 @@ def build_overlay(hook, streamer, path, tipo=None, explicacion=None):
     d.text((W - lw - 40, y + 76), t, font=f, fill=(235, 220, 245), stroke_width=3, stroke_fill=INK)
     im.save(path)
 
-def render(src, overlay, out):
-    # fondo: el propio clip ampliado y desenfocado; delante: el clip a todo el ancho; encima: textos + Pip
-    flt = (
-        "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5,eq=brightness=-0.18[bg];"
-        "[0:v]scale=1080:-2[fg];"
-        "[bg][fg]overlay=(W-w)/2:700[v1];"
-        "[v1][1:v]overlay=0:0[v2];"
-        "[2:v]format=rgba,scale=iw*0.8:-1[pip];"
-        "[v2][pip]overlay=20:H-h+12:shortest=1[v]"
-    )
-    pip = str(ASSETS / "pip" / "%03d.png")
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(src), "-i", str(overlay),
-           "-framerate", "30", "-stream_loop", "-1", "-i", pip,
-           "-filter_complex", flt, "-map", "[v]", "-map", "0:a?", "-t", "59",
-           "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p",
+def render(src, overlay, out, voice=None, words=None):
+    """voice: mp3 con la voz de Pip; words: tiempos por palabra para subtítulos."""
+    DELAY = 0.35
+    pip_talk = str(ASSETS / "pip" / "%03d.png")
+    pip_idle = str(ASSETS / "pip_idle" / "%03d.png")
+    inputs = ["-i", str(src), "-i", str(overlay),
+              "-framerate", "30", "-stream_loop", "-1", "-i", pip_talk,
+              "-framerate", "30", "-stream_loop", "-1", "-i", pip_idle]
+    vdur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(src)],
+                                capture_output=True, text=True).stdout.strip() or 30)
+    if voice and words:
+        talk_end = words[-1][1] + DELAY
+        ass = WORK / (pathlib.Path(out).stem + ".ass")
+        build_captions(words, ass, DELAY)
+        inputs += ["-i", str(voice)]
+        fonts = str(ASSETS).replace("\\", "/").replace(":", "\\:")
+        assp = str(ass).replace("\\", "/").replace(":", "\\:")
+        # Pip habla, audio del clip bajado mientras habla
+        flt = (
+            "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5,eq=brightness=-0.22[bg];"
+            "[0:v]scale=1080:-2[fg];"
+            "[bg][fg]overlay=(W-w)/2:700[v1];"
+            "[v1][1:v]overlay=0:0[v2];"
+            "[2:v]format=rgba[pt];[3:v]format=rgba[pi];"
+            f"[v2][pt]overlay=10:H-h+12:enable='lt(t\\,{talk_end:.2f})':shortest=1[v3];"
+            f"[v3][pi]overlay=10:H-h+12:enable='gte(t\\,{talk_end:.2f})':shortest=1[v4];"
+            f"[v4]subtitles='{assp}':fontsdir='{fonts}'[v];"
+            f"[0:a]volume='if(lt(t\\,{talk_end:.2f})\\,0.22\\,1)':eval=frame[ca];"
+            f"[4:a]adelay={int(DELAY*1000)}|{int(DELAY*1000)},volume=1.7,apad[na];"
+            "[ca][na]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]"
+        )
+        maps = ["-map", "[v]", "-map", "[a]"]
+        # si la voz dura más que el clip, alarga el vídeo congelando el último frame
+        if talk_end + 1 > vdur:
+            flt = flt.replace("[0:v]scale=1080:1920", f"[0:v]tpad=stop_mode=clone:stop_duration={talk_end + 1.5 - vdur:.2f},scale=1080:1920", 1)
+            flt = flt.replace("[0:v]scale=1080:-2", f"[0:v]tpad=stop_mode=clone:stop_duration={talk_end + 1.5 - vdur:.2f},scale=1080:-2", 1)
+            flt = flt.replace("[0:a]volume", f"[0:a]apad=pad_dur={talk_end + 1.5 - vdur:.2f},volume", 1)
+    else:
+        flt = (
+            "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5,eq=brightness=-0.18[bg];"
+            "[0:v]scale=1080:-2[fg];"
+            "[bg][fg]overlay=(W-w)/2:700[v1];"
+            "[v1][1:v]overlay=0:0[v2];"
+            "[2:v]format=rgba,scale=iw*0.8:-1[pip];"
+            "[v2][pip]overlay=20:H-h+12:shortest=1[v]"
+        )
+        maps = ["-map", "[v]", "-map", "0:a?"]
+    cmd = ["ffmpeg", "-y", "-loglevel", "error"] + inputs + ["-filter_complex", flt] + maps + [
+           "-t", "59", "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p",
            "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(out)]
     subprocess.run(cmd, check=True)
 
@@ -468,6 +575,9 @@ def main():
                 log("Análisis IA falló:", e)
                 if HAS_AI:
                     continue  # sin análisis no publicamos clips sin sentido
+            if a is not None and a.get("usable") and float(a.get("nota") or 0) < MIN_SCORE:
+                log(f"Descartado por nota baja ({a.get('nota')})")
+                a["usable"] = False
             if a is not None and not a.get("usable"):
                 state["posted"].append(c["id"])  # descartado: no volver a mirarlo
                 continue
@@ -479,11 +589,15 @@ def main():
                 tipo, expl = a.get("tipo"), a.get("explicacion")
                 text = (f"{a.get('texto') or hook}\n\n🎥 Clip de {c['broadcaster_name']} (twitch.tv/{c['broadcaster_name']})\n"
                         "Sígueme y Pip te lo explica todo de GTA 6.\n\n#GTA6 #GTAVI #GTA6España #gaming #videojuegos")
+            voice = words = None
+            if a and a.get("narracion"):
+                voice = WORK / f"{c['id']}_voz.mp3"
+                words = pip_voice(a["narracion"], voice)
             ov = WORK / f"{c['id']}_ov.png"
-            build_overlay(hook, c["broadcaster_name"], ov, tipo, expl)
+            build_overlay(hook, c["broadcaster_name"], ov, tipo, expl, narrated=bool(words))
             safe = re.sub(r"[^A-Za-z0-9_-]", "", c["id"])[:60]
             out = MEDIA / f"pip_{safe}.mp4"
-            render(src, ov, out)
+            render(src, ov, out, voice if words else None, words)
             made.append((c, out, title, text))
             log("Montado:", out.name, "|", hook)
         except Exception as e:
