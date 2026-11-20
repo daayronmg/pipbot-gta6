@@ -519,7 +519,7 @@ CREATE = """mutation($input: CreatePostInput!) {
 
 ERRORS = []
 
-YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "2"))  # Buffer/YouTube solo dejan 2 al día
+YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "1"))  # Buffer/YouTube solo dejan 2 al día
 
 def schedule(chans, video_url, title, text, due, state=None, nota=0):
     for c in chans:
