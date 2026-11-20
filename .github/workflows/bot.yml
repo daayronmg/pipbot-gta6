@@ -2,7 +2,7 @@ name: Pip GTA6 bot
 
 on:
   schedule:
-    - cron: "17,47 * * * *"  # cada 30 minutos
+    - cron: "7 */4 * * *"  # arranca un bucle de ~5,5 h cada 4 h (los cron de GitHub fallan mucho)
   workflow_dispatch: {}      # botón para lanzarlo a mano
   push:
     paths: ["trigger.txt"]  # tocar este archivo lo lanza al momento
@@ -12,12 +12,12 @@ permissions:
 
 concurrency:
   group: pipbot
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,17 +41,8 @@ jobs:
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-haiku-5-5' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DRAFT_MODE: ${{ vars.DRAFT_MODE || 'false' }}
-          CLIPS_PER_RUN: ${{ vars.CLIPS_PER_RUN || '4' }}
+          CLIPS_PER_RUN: ${{ vars.CLIPS_PER_RUN || '2' }}
           MAX_PER_DAY: ${{ vars.MAX_PER_DAY || '48' }}
           TARGET_SERVICES: ${{ vars.TARGET_SERVICES || 'youtube,tiktok,instagram' }}
         shell: bash
-        run: |
-          set -o pipefail
-          python bot.py 2>&1 | tee run.log
-      - name: Guardar estado
-        if: always()
-        run: |
-          git config user.name pipbot
-          git config user.email pipbot@users.noreply.github.com
-          git add state.json run.log || true
-          git diff --cached --quiet || (git commit -q -m "estado" && git pull -q --rebase && git push -q)
+        run: ./run_loop.sh
