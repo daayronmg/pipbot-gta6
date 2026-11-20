@@ -1,15 +1,7 @@
-[pipbot] 31 clips válidos (modo sin claves)
-[pipbot] IA: werlyb usable=False nota=0 · El clip no es de GTA 6, es una partida de League of Legends.
-[pipbot] IA: vegetta777 usable=True nota=8 · Muestra la física del billar y la reacción de la IA ante un fallo espectacular del streamer.
-[pipbot] Montado: pip_2037008206.mp4 | PERDER AL BILLAR EN UN SEGUNDO
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · El clip muestra una interacción de la IA realista e inesperada que es muy graciosa y típica de la atención al detalle de Rockstar.
-[pipbot] Montado: pip_2118863710.mp4 | LA IA DE GTA 6 ES REAL
+[pipbot] 33 clips válidos (modo sin claves)
+[pipbot] IA: rubius usable=False nota=0 · El clip es una cinemática de la historia (spoiler) y muestra una escena de contenido sexual, lo cual infringe los filtros de seguridad y de spoilers.
+[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción hilarante y única de la IA con la fauna del juego, ideal para redes sociales.
+[pipbot] Montado: pip_2454694123.mp4 | LA IA NO TIENE PIEDAD
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 17:50 UTC
-[pipbot] Programado en youtube para 20/11 17:50 UTC
-[pipbot] Programado en tiktok para 20/11 18:05 UTC
-[pipbot] Programado en youtube para 20/11 18:05 UTC
+[pipbot] Programado en tiktok para 20/11 17:45 UTC
+[pipbot] ERROR Buffer youtube: You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.
