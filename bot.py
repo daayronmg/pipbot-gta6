@@ -29,7 +29,7 @@ CLIPS_PER_RUN = int(os.environ.get("CLIPS_PER_RUN", "4"))
 MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "48"))
 MIN_SCORE = float(os.environ.get("MIN_SCORE", "7"))
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "6"))
-TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "tiktok").split(",")]
+TARGETS = [s.strip().lower() for s in os.environ.get("TARGET_SERVICES", "youtube,tiktok").split(",")]
 GAME_NAME = os.environ.get("GAME_NAME", "Grand Theft Auto VI")
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-5-5")
@@ -519,7 +519,7 @@ CREATE = """mutation($input: CreatePostInput!) {
 
 ERRORS = []
 
-YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "1"))  # Buffer/YouTube solo dejan 2 al día
+YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "2"))  # Buffer/YouTube solo dejan 2 al día
 
 def schedule(chans, video_url, title, text, due, state=None, nota=0):
     for c in chans:
