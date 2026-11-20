@@ -1,15 +1,12 @@
-[pipbot] 29 clips válidos (modo sin claves)
-[pipbot] Gemini gemini-3-flash-preview: 503 {
+[pipbot] 27 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=False nota=0 · El clip solo muestra al streamer navegando por los menús de la consola y la pantalla de inicio del juego, sin gameplay real.
+[pipbot] IA: elmariana usable=False nota=0 · Es solo el streamer hablando a cámara en categoría Just Chatting; no hay gameplay de GTA 6 ni sucede nada concreto en el juego.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: illojuan usable=True nota=8 · El clip muestra una interacción detallada y poco común con un NPC en el interior de una casa, revelando una capa de profundidad en la IA de GTA 6.
-[pipbot] Montado: pip_287715951.mp4 | NO TE LIGUES A ESTA NPC
-[pipbot] IA: auronplay usable=False nota=3 · El clip es una recopilación de escenas cinemáticas y momentos de la historia (spoilers) sin mostrar mecánicas, bugs o detalles de gameplay específicos.
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=True nota=8 · El clip muestra una recopilación de detalles ambientales y comportamientos de NPCs en el mundo abierto de GTA 6 que los jugadores están empezando a descubrir.
+[pipbot] Montado: pip_4182684904.mp4 | LA VIDA REAL EN LEONIDA
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 02:45 UTC
+[pipbot] Programado en tiktok para 20/11 03:19 UTC
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
