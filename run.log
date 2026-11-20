@@ -1,13 +1,13 @@
-[pipbot] 26 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=9 · Aparición de la voz de Trevor Philips en la radio, un detalle nostálgico de gran impacto para los fans.
-[pipbot] Montado: pip_919522101.mp4 | TREVOR PHILIPS ESTÁ EN LEONIDA
-[pipbot] IA: auronplay usable=False nota=0 · Es una cinemática de la historia con spoilers y diálogos guionizados, no un detalle de jugabilidad o física.
-[pipbot] IA: auronplay usable=False nota=7 · El clip contiene desnudez explícita (glúteos del personaje), lo cual infringe las normas de contenido de TikTok y YouTube Shorts.
-[pipbot] IA: rubius usable=False nota=0 · Es una cinemática de la historia con spoilers y contiene contenido sexual/sugestivo que sería censurado en redes sociales.
-[pipbot] IA: elmariana usable=False nota=0 · El clip no contiene gameplay de GTA 6; es únicamente el streamer contando una anécdota personal en la categoría de Just Chatting.
-[pipbot] IA: auronplay usable=True nota=7 · Muestra el nivel de detalle en las animaciones de ejercicio y la interacción con objetos del entorno como la radio.
-[pipbot] Montado: pip_1328567012.mp4 | JASON SE PONE EN FORMA
+[pipbot] 25 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=True nota=8 · Interacción cómica con la IA que muestra la confusión de controles típica de los primeros días de juego.
+[pipbot] Montado: pip_3148623037.mp4 | NO TE EQUIVOQUES DE BOTÓN
+[pipbot] IA: thegrefg usable=False nota=0 · El clip pertenece a la categoría Just Chatting; es una celebración personal del streamer y no muestra gameplay, mecánicas o detalles del juego GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=False nota=0 · El clip es un momento de Just Chatting personal entre el streamer y otra persona, no contiene gameplay de GTA 6.
+[pipbot] IA: thegrefg usable=False nota=0 · El clip es de la categoría Just Chatting, mostrando una celebración en la vida real por un hito de suscriptores, no contiene gameplay de GTA 6.
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 00:28 UTC
-[pipbot] Programado en tiktok para 20/11 00:43 UTC
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] Programado en tiktok para 20/11 01:01 UTC
+[pipbot] Programado en youtube para 20/11 01:01 UTC
