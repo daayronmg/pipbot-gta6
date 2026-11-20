@@ -1,28 +1,13 @@
-[pipbot] 21 clips válidos (modo sin claves)
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción única de la IA donde los NPCs reaccionan dinámicamente al comportamiento del jugador en un entorno social.
-[pipbot] Montado: pip_2625230548.mp4 | LA IA DE GTA 6 RESPONDE
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip es únicamente el streamer hablando a cámara sobre su carrera; no hay contenido de juego de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=3 · El clip es el streamer hablando con su audiencia y dando códigos, no muestra gameplay de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra un comportamiento realista y divertido de la IA animal en GTA 6.
-[pipbot] Montado: pip_2292415234.mp4 | LA IA ES DEMASIADO REALISTA
+[pipbot] 23 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=True nota=8 · Muestra la interactividad y el realismo de los interiores y las animaciones de salud.
+[pipbot] Montado: pip_4175939693.mp4 | LAS CASAS SON TOTALMENTE INTERACTIVAS
+[pipbot] IA: alexby11 usable=True nota=7 · Se muestra un detalle curioso de un easter egg en un vehículo (vinilo de alien) que encaja perfectamente con el contenido de curiosidades de GTA 6.
+[pipbot] Montado: pip_2497229977.mp4 | EL COCHE DEL ALIEN ENCONTRADO
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@06bf9f23ba032ce7aa732d3909f392d3bf7a2817/pip_4175939693.mp4
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 08:01 UTC
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
+[pipbot] Programado en tiktok para 20/11 08:40 UTC
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] Programado en tiktok para 20/11 08:16 UTC
+[pipbot] Programado en tiktok para 20/11 08:55 UTC
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
