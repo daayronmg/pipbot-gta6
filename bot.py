@@ -166,7 +166,7 @@ CONTEXTO IMPORTANTE: GTA 6 (Grand Theft Auto VI) YA HA SALIDO: se lanzó el 19 d
 Te paso un clip de Twitch del streamer {streamer}. Título del clip: "{title}". Audio: "{transcript}"
 
 1) FILTRO (sé muy exigente, solo publicamos lo que un clipper top publicaría):
-Descártalo (usable=false) si: sale desnudez, contenido sexual o una zona nudista (TikTok lo censura); no es GTA 6 (otro juego, Just Chatting…); es sobre todo el streamer hablando u opinando; la mayor parte es su cámara; es una cinemática o momento de la historia (spoiler); es un menú o pantalla de carga; no pasa nada concreto; o no se entiende sin haber visto el directo.
+Descártalo (usable=false) si: sale una escena de sexo explícito; no es GTA 6 (otro juego, Just Chatting…); es sobre todo el streamer hablando u opinando; la mayor parte es su cámara; es una cinemática o momento de la historia (spoiler); es un menú o pantalla de carga; no pasa nada concreto; o no se entiende sin haber visto el directo.
 Vale si EN EL JUEGO pasa algo concreto: un detalle escondido, una física loca, un bug, una reacción de la IA, algo muy gracioso, un truco útil o algo que la gente no sabía que se podía hacer.
 
 2) GUION (si vale):
