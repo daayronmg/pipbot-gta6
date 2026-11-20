@@ -519,13 +519,13 @@ CREATE = """mutation($input: CreatePostInput!) {
 
 ERRORS = []
 
-YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "2"))  # Buffer/YouTube solo dejan 2 al día
+YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "8"))  # Buffer deja 10 Shorts/24 h a cuentas sin verificar
 
 def schedule(chans, video_url, title, text, due, state=None, nota=0):
     for c in chans:
         svc = c["service"].lower()
         if svc == "youtube" and state is not None:
-            if state.get("yt_count", 0) >= YT_PER_DAY or (nota and nota < 8 and state.get("yt_count", 0) >= 1):
+            if state.get("yt_count", 0) >= YT_PER_DAY:
                 log("YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok"); continue
         inp = {"text": text, "channelId": c["id"], "schedulingType": "automatic",
                "mode": "customScheduled", "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
