@@ -1,7 +1,14 @@
-[pipbot] 33 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=False nota=0 · El clip es una cinemática de la historia (spoiler) y muestra una escena de contenido sexual, lo cual infringe los filtros de seguridad y de spoilers.
-[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción hilarante y única de la IA con la fauna del juego, ideal para redes sociales.
-[pipbot] Montado: pip_2454694123.mp4 | LA IA NO TIENE PIEDAD
+[pipbot] 31 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción única y sarcástica de los NPCs de GTA 6 ante un atraco, algo muy buscado por la comunidad.
+[pipbot] Montado: pip_3525514052.mp4 | LA IA DE GTA 6 NO TIENE MIEDO
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 17:45 UTC
-[pipbot] ERROR Buffer youtube: You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.
+[pipbot] Programado en tiktok para 20/11 18:35 UTC
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
