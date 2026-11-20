@@ -1,15 +1,28 @@
-[pipbot] 23 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=False nota=2 · El clip no es de GTA VI (es GTA V modificado, del servidor Marbella Vice) y el contenido se centra únicamente en la reacción del streamer sin mostrar novedades del juego.
-[pipbot] IA: illojuan usable=True nota=8 · Se muestra un bug o interacción física muy extraña y graciosa donde un coche explota sin motivo al disparar a un NPC.
-[pipbot] Montado: pip_4078210477.mp4 | ¿EL KARMA EXISTE EN GTA 6?
+[pipbot] 21 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción única y realista con NPCs en GTA 6 que los jugadores pueden experimentar.
-[pipbot] Montado: pip_382061871.mp4 | NO ENTRES AQUÍ SIN LLAMAR
+[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción única de la IA donde los NPCs reaccionan dinámicamente al comportamiento del jugador en un entorno social.
+[pipbot] Montado: pip_2625230548.mp4 | LA IA DE GTA 6 RESPONDE
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=False nota=0 · El clip es únicamente el streamer hablando a cámara sobre su carrera; no hay contenido de juego de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=False nota=3 · El clip es el streamer hablando con su audiencia y dando códigos, no muestra gameplay de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=True nota=8 · Muestra un comportamiento realista y divertido de la IA animal en GTA 6.
+[pipbot] Montado: pip_2292415234.mp4 | LA IA ES DEMASIADO REALISTA
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 07:26 UTC
+[pipbot] Programado en tiktok para 20/11 08:01 UTC
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] Programado en tiktok para 20/11 07:41 UTC
+[pipbot] Programado en tiktok para 20/11 08:16 UTC
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
