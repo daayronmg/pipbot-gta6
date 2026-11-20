@@ -1,17 +1,12 @@
-[pipbot] 26 clips válidos (modo sin claves)
+[pipbot] 23 clips válidos (modo sin claves)
+[pipbot] IA: auronplay usable=False nota=0 · El clip se centra casi exclusivamente en el streamer y el problema técnico con su silla real, no en un evento del juego.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra un bug físico cómico e inesperado en la IA de GTA 6 que resulta entretenido.
-[pipbot] Montado: pip_2309266253.mp4 | LA IA DE GTA 6 ESTÁ ROTA
-[pipbot] IA: auronplay usable=False nota=0 · No es GTA 6; es Auronplay en la categoría Just Chatting reaccionando a un vídeo de TikTok.
-[pipbot] IA: knekro usable=False nota=0 · No es GTA 6, se trata de una charla entre streamers en formato Just Chatting sin contenido del juego.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=2 · El clip muestra al streamer en el menú del juego hablando sobre el contenido, no hay ninguna acción o gameplay relevante del juego ocurriendo.
+[pipbot] IA: auronplay usable=False nota=0 · El clip es únicamente un streamer hablando en la sección de Just Chatting, no muestra contenido de juego ni gameplay de GTA 6.
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción dinámica entre los protagonistas que revela el nivel de realismo del juego, comentada con humor por el streamer.
+[pipbot] Montado: pip_3918676855.mp4 | LUCÍA TE LLAMA PARA ESTO
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 20:54 UTC
+[pipbot] Programado en tiktok para 20/11 21:27 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
