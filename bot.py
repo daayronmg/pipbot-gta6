@@ -14,6 +14,7 @@ FONT = str(ASSETS / "Poppins-Bold.ttf")
 WORK = ROOT / "work"
 MEDIA = ROOT / "media"          # carpeta que se sube a la rama 'media'
 STATE = ROOT / "state.json"
+NOW_FLAG = ROOT / "publish_now.flag"
 
 TWITCH_ID = os.environ.get("TWITCH_CLIENT_ID", "")
 TWITCH_SECRET = os.environ.get("TWITCH_CLIENT_SECRET", "")
@@ -626,11 +627,14 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     gap = int(os.environ.get("MINUTES_BETWEEN_POSTS", "15"))
     for i, (c, out, title, text, nota) in enumerate(made):
-        due = now + dt.timedelta(minutes=20 + i * gap)
+        first = 3 if NOW_FLAG.exists() else 20  # publish_now.flag: el primero sale ya
+        due = now + dt.timedelta(minutes=first + i * gap)
         schedule(chans, urls.get(out.name, f"DRY/{out.name}"), title, text, due, state, nota)
         state["posted"].append(c["id"])
         state["today_count"] = state.get("today_count", 0) + 1
         state.setdefault("last_by_streamer", {})[c["broadcaster_name"]] = time.time()
+    if NOW_FLAG.exists():
+        NOW_FLAG.unlink()
     save_state(state)
     if ERRORS:
         sys.exit("Buffer rechazó algunos posts: " + " | ".join(ERRORS))
