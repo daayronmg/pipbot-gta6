@@ -1,10 +1,15 @@
-[pipbot] 25 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=8 · Interacción graciosa y realista entre el tráfico, la fauna y el jugador que muestra el nivel de detalle de las físicas.
-[pipbot] Montado: pip_1147758265.mp4 | ESTE CIERVO TE ARRUINA LA HUIDA
-[pipbot] IA: thegrefg usable=True nota=8 · Es un easter egg curioso con una reacción muy enérgica del streamer que funciona bien en redes.
-[pipbot] Montado: pip_129700199.mp4 | EL CAPIBARA CON SOMBRERO OCULTO
+[pipbot] 29 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: illojuan usable=True nota=8 · El clip muestra una interacción detallada y poco común con un NPC en el interior de una casa, revelando una capa de profundidad en la IA de GTA 6.
+[pipbot] Montado: pip_287715951.mp4 | NO TE LIGUES A ESTA NPC
+[pipbot] IA: auronplay usable=False nota=3 · El clip es una recopilación de escenas cinemáticas y momentos de la historia (spoilers) sin mostrar mecánicas, bugs o detalles de gameplay específicos.
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 02:13 UTC
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] Programado en tiktok para 20/11 02:28 UTC
+[pipbot] Programado en tiktok para 20/11 02:45 UTC
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
