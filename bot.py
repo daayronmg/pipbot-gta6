@@ -526,7 +526,7 @@ def schedule(chans, video_url, title, text, due, state=None, nota=0):
     for c in chans:
         svc = c["service"].lower()
         if svc == "youtube" and state is not None:
-            if dt.date.today().isoformat() < os.environ.get("YT_PAUSE_UNTIL", "2026-11-26"):
+            if dt.date.today().isoformat() < os.environ.get("YT_PAUSE_UNTIL", "2026-11-25"):
                 log("YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok"); continue
             if state.get("yt_count", 0) >= YT_PER_DAY:
                 log("YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok"); continue
