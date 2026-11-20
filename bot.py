@@ -558,8 +558,7 @@ def schedule(chans, video_url, title, text, due, state=None, nota=0):
             continue
         if svc == "youtube" and state is not None:
             state["yt_count"] = state.get("yt_count", 0) + 1
-        else:
-            log(f"Programado en {svc} para {due:%d/%m %H:%M} UTC")
+        log(f"Programado en {svc} para {due:%d/%m %H:%M} UTC")
 
 # ---------------- main ----------------
 def main():
