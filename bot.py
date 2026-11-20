@@ -520,7 +520,7 @@ CREATE = """mutation($input: CreatePostInput!) {
 
 ERRORS = []
 
-YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "8"))  # Buffer deja 10 Shorts/24 h a cuentas sin verificar
+YT_PER_DAY = int(os.environ.get("YT_PER_DAY", "2"))  # Buffer: "YouTube allows 2 a day" para este canal
 
 def schedule(chans, video_url, title, text, due, state=None, nota=0):
     for c in chans:
