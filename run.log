@@ -1,11 +1,7 @@
-[pipbot] 27 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=7 · Muestra el nivel de detalle y físicas de la fauna pequeña en el mundo abierto.
-[pipbot] Montado: pip_1329516130.mp4 | LAS LAGARTIJAS TIENEN FÍSICAS PROPIAS
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip es solo el streamer hablando sobre sus suscriptores y no contiene gameplay de GTA 6.
+[pipbot] 30 clips válidos (modo sin claves)
+[pipbot] IA: illojuan usable=True nota=8 · Aparece un Easter Egg del tono de llamada de Trevor de GTA 5 en un NPC de Vice City.
+[pipbot] Montado: pip_643630850.mp4 | NPC CON EL MÓVIL DE TREVOR
+[pipbot] IA: auronplay usable=False nota=0 · No es GTA 6, es contenido de Just Chatting donde el streamer solo está hablando a cámara.
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 04:22 UTC
+[pipbot] Programado en tiktok para 20/11 04:54 UTC
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
