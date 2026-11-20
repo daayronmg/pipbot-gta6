@@ -1,14 +1,1 @@
-[pipbot] 31 clips válidos (modo sin claves)
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción única y sarcástica de los NPCs de GTA 6 ante un atraco, algo muy buscado por la comunidad.
-[pipbot] Montado: pip_3525514052.mp4 | LA IA DE GTA 6 NO TIENE MIEDO
-[pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 18:35 UTC
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] 23 clips válidos (modo sin claves)
