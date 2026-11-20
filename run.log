@@ -1,15 +1,1 @@
-[pipbot] 30 clips válidos (modo sin claves)
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=False nota=3 · Es una cinemática de la historia principal, no un momento de gameplay o interacción.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · El clip muestra una interacción detallada con NPCs en un club nocturno de GTA 6, reflejando el nivel de inmersión y los diálogos dinámicos del juego.
-[pipbot] Montado: pip_3699978546.mp4 | LA IA DE GTA 6 RESPONDE
-[pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 22:35 UTC
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] 29 clips válidos (modo sin claves)
