@@ -1,15 +1,15 @@
 [pipbot] 30 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=8 · Muestra una interacción detallada con la fauna del juego mediante el uso de objetos del inventario.
-[pipbot] Montado: pip_2212009343.mp4 | ALIMENTA A LOS PERROS ASÍ
-[pipbot] IA: elmariana usable=False nota=0 · El clip es una cinemática de la historia principal, lo cual está explícitamente prohibido por las reglas de filtrado para evitar spoilers.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=True nota=8 · Muestra un detalle técnico y realista de la IA de los NPC en GTA 6 que los jugadores suelen pasar por alto.
-[pipbot] Montado: pip_3507187688.mp4 | LA IA DE GTA 6 ES REAL
+[pipbot] IA: rubius usable=False nota=3 · Es una cinemática de la historia principal, no un momento de gameplay o interacción.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: rubius usable=True nota=8 · El clip muestra una interacción detallada con NPCs en un club nocturno de GTA 6, reflejando el nivel de inmersión y los diálogos dinámicos del juego.
+[pipbot] Montado: pip_3699978546.mp4 | LA IA DE GTA 6 RESPONDE
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 22:00 UTC
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
-[pipbot] Programado en tiktok para 20/11 22:15 UTC
+[pipbot] Programado en tiktok para 20/11 22:35 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
