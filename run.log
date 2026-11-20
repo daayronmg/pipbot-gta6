@@ -1,12 +1,2 @@
 [pipbot] 27 clips válidos (modo sin claves)
-[pipbot] IA: elmariana usable=False nota=0 · El clip solo muestra al streamer navegando por los menús de la consola y la pantalla de inicio del juego, sin gameplay real.
-[pipbot] IA: elmariana usable=False nota=0 · Es solo el streamer hablando a cámara en categoría Just Chatting; no hay gameplay de GTA 6 ni sucede nada concreto en el juego.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=True nota=8 · El clip muestra una recopilación de detalles ambientales y comportamientos de NPCs en el mundo abierto de GTA 6 que los jugadores están empezando a descubrir.
-[pipbot] Montado: pip_4182684904.mp4 | LA VIDA REAL EN LEONIDA
-[pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 20/11 03:19 UTC
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] IA: auronplay usable=False nota=0 · Es un clip de Just Chatting, no hay gameplay de GTA 6.
