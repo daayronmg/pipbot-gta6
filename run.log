@@ -1,16 +1,13 @@
-[pipbot] 27 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=8 · Muestra interacciones específicas de Lucía en el club nocturno que muchos jugadores podrían pasar por alto.
-[pipbot] Montado: pip_2395517594.mp4 | LUCÍA VISITA EL CLUB MASCULINO
+[pipbot] 30 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: vegetta777 usable=False nota=3 · El clip muestra al streamer conduciendo y hablando de tunear un coche, no hay ningún evento, detalle, bug o mecánica específica del juego que sea relevante o sorprendente.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip es el streamer hablando sobre World of Warcraft, no tiene relación con GTA 6.
+[pipbot] IA: elmariana usable=True nota=7 · Muestra una interacción realista con NPCs donde el jugador puede elegir entre pagar o recurrir a la violencia, destacando la libertad de acción en GTA 6.
+[pipbot] Montado: pip_1549206048.mp4 | NO PAGUES TUS DEUDAS EN GTA 6
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@5e5a5133bcef73a3d21a6986fe27307968d04f9f/pip_1549206048.mp4
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 21/11 22:35 UTC
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
+[pipbot] Programado en tiktok para 21/11 23:13 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
