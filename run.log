@@ -1,6 +1,11 @@
 [pipbot] 28 clips válidos (modo sin claves)
-[pipbot] IA: auronplay usable=True nota=7 · Muestra el realismo de las animaciones de los NPCs y sus rutinas persistentes en interiores, un detalle técnico muy comentado.
-[pipbot] Montado: pip_654739586.mp4 | ESTE NPC NO TIENE VERGÜENZA
+[pipbot] IA: elmariana usable=False nota=0 · No es GTA 6, es un clip de la categoría Just Chatting donde el streamer está hablando con su chat.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=True nota=7 · Muestra una interacción de diálogo única y ramificada con un NPC en el mundo de GTA 6.
+[pipbot] Montado: pip_2716245915.mp4 | DIÁLOGOS OCULTOS CON NPCS
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 21/11 16:27 UTC
+[pipbot] Programado en tiktok para 21/11 17:01 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
