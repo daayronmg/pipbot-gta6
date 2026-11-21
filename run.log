@@ -1,6 +1,6 @@
-[pipbot] 27 clips válidos (modo sin claves)
+[pipbot] 21 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es de un torneo de Pokémon competitivo, no es GTA 6.
+[pipbot] IA: knekro usable=False nota=0 · El clip es de un torneo de Pokémon y no tiene nada que ver con GTA 6.
