@@ -3,14 +3,19 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra una interacción única de la IA con las físicas de los vehículos de movilidad personal en GTA 6.
-[pipbot] Montado: pip_2944282717.mp4 | LA IA REACCIONA A TODO
-remote: warning: See https://gh.io/lfs for more information.        
-remote: warning: File pip_2944282717.mp4 is 56.10 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
-remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@729eefd6d8e649b7a33377067a41e431178aaa3e/pip_2944282717.mp4
+[pipbot] IA: illojuan usable=True nota=8 · El clip muestra una interacción realista con la fauna de Leonida y las consecuencias inmediatas del sistema policial.
+[pipbot] Montado: pip_2734589565.mp4 | NO MATES A ESTE ANIMAL
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: rubius usable=True nota=8 · El clip muestra una física realista y graciosa de los accidentes de moto en GTA 6.
+[pipbot] Montado: pip_1403833811.mp4 | LA FÍSICA MÁS REAL DE GTA 6
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@92fa63522315c60ae843ab7347be3e591754384c/pip_2734589565.mp4
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
 [pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
 [pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
-[pipbot] Programado en tiktok para 21/11 05:41 UTC
+[pipbot] Programado en tiktok para 21/11 06:21 UTC
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] Programado en tiktok para 21/11 06:36 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
