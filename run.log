@@ -1,21 +1,21 @@
-[pipbot] 28 clips válidos (modo sin claves)
+[pipbot] 25 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece a la categoría Just Chatting y no contiene gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=8 · El clip muestra una interacción realista con la fauna de Leonida y las consecuencias inmediatas del sistema policial.
-[pipbot] Montado: pip_2734589565.mp4 | NO MATES A ESTE ANIMAL
+[pipbot] IA: elmariana usable=False nota=0 · El clip es solo el streamer hablando a la cámara en una sección de 'Just Chatting', no hay gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · El clip muestra una física realista y graciosa de los accidentes de moto en GTA 6.
-[pipbot] Montado: pip_1403833811.mp4 | LA FÍSICA MÁS REAL DE GTA 6
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@92fa63522315c60ae843ab7347be3e591754384c/pip_2734589565.mp4
+[pipbot] IA: elmariana usable=False nota=0 · El clip es únicamente el streamer hablando en 'Just Chatting' y no muestra ninguna secuencia de juego de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: vegetta777 usable=True nota=8 · El clip muestra una interacción curiosa y realista con la IA en un club nocturno de GTA 6
+[pipbot] Montado: pip_591395687.mp4 | LA IA REACCIONA A TODO
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
-[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
-[pipbot] Programado en tiktok para 21/11 06:21 UTC
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
-[pipbot] Programado en tiktok para 21/11 06:36 UTC
+[pipbot] Programado en tiktok para 21/11 06:56 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
