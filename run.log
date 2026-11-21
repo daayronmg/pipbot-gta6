@@ -1,25 +1,15 @@
-[pipbot] 27 clips válidos (modo sin claves)
+[pipbot] 24 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=3 · El clip es una cinemática de la historia principal, lo cual está explícitamente descartado por ser un spoiler.
+[pipbot] IA: alexby11 usable=True nota=8 · El streamer muestra la inmersión visual y el nivel de detalle gráfico que hace que el cerebro se acostumbre a la realidad del juego.
+[pipbot] Montado: pip_656250861.mp4 | EL CEREBRO SE ACOSTUMBRA A GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es de un torneo de Pokémon competitivo, no es GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es de un juego de Pokémon, no de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=True nota=8 · El clip muestra una interacción física realista y cómica con un NPC en silla de ruedas, algo muy característico de las físicas de GTA 6.
-[pipbot] Montado: pip_705446612.mp4 | NO ATROPELLAS IGUAL A TODOS
+[pipbot] IA: vegetta777 usable=False nota=0 · El clip se centra exclusivamente en la opinión del streamer sobre las mecánicas del juego y no muestra una acción, bug o detalle concreto dentro del gameplay.
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 21/11 04:28 UTC
+[pipbot] Programado en tiktok para 21/11 05:02 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
