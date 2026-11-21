@@ -1,24 +1,25 @@
 [pipbot] 27 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=False nota=2 · El clip no muestra ninguna mecánica, secreto o detalle relevante del juego; se centra principalmente en la reacción de frustración del streamer y termina en una pantalla de menú.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=False nota=0 · El clip es el streamer hablando sobre un libro de GTA y no muestra gameplay del juego.
+[pipbot] IA: elmariana usable=False nota=3 · El clip es una cinemática de la historia principal, lo cual está explícitamente descartado por ser un spoiler.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · Muestra una mecánica de interacción física realista y curiosa dentro del juego que no es una cinemática.
-[pipbot] Montado: pip_2461389661.mp4 | LA DUCHA MÁS REALISTA DE GTA 6
+[pipbot] IA: knekro usable=False nota=0 · El clip es de un torneo de Pokémon competitivo, no es GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=8 · Muestra una interacción física única y realista con un animal en GTA 6 que la mayoría de los jugadores desconoce.
-[pipbot] Montado: pip_3607246983.mp4 | NO HAGAS ESTO A LOS ANIMALES
+[pipbot] IA: knekro usable=False nota=0 · El clip es de un juego de Pokémon, no de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=True nota=8 · El clip muestra una interacción física realista y cómica con un NPC en silla de ruedas, algo muy característico de las físicas de GTA 6.
+[pipbot] Montado: pip_705446612.mp4 | NO ATROPELLAS IGUAL A TODOS
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 21/11 03:55 UTC
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
-[pipbot] Programado en tiktok para 21/11 04:10 UTC
+[pipbot] Programado en tiktok para 21/11 04:28 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
