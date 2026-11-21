@@ -1,10 +1,23 @@
-[pipbot] 26 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=8 · Muestra el nivel de detalle extremo en las animaciones de Jason en la prisión, algo que está dando mucho que hablar por su realismo.
-[pipbot] Montado: pip_2433946836.mp4 | LAS FÍSICAS OCULTAS EN LA DUCHA
-[pipbot] IA: rubius usable=True nota=8 · Detalle técnico de físicas de vapor dinámico en las paredes de la ducha.
-[pipbot] Montado: pip_1877079221.mp4 | EL VAPOR EMPAÑA LOS AZULEJOS
+[pipbot] 29 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=False nota=0 · El clip es el streamer haciendo ejercicio en su habitación, no hay gameplay de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=True nota=7 · El clip muestra una mecánica física divertida y poco común en el juego que genera curiosidad.
+[pipbot] Montado: pip_1309259113.mp4 | ELMARIANA DESCUBRE ESTA FÍSICA
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción física única y cómica con la IA de GTA 6 donde un NPC en silla de ruedas reacciona de forma realista a ser atropellado repetidamente.
+[pipbot] Montado: pip_2680079387.mp4 | NO ATROPELLÉIS A ESTE NPC
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 21/11 01:41 UTC
+[pipbot] Programado en tiktok para 21/11 02:17 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
-[pipbot] Programado en tiktok para 21/11 01:56 UTC
+[pipbot] Programado en tiktok para 21/11 02:32 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
