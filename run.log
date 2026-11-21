@@ -1,15 +1,16 @@
-[pipbot] 24 clips válidos (modo sin claves)
+[pipbot] 28 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: alexby11 usable=True nota=8 · El streamer muestra la inmersión visual y el nivel de detalle gráfico que hace que el cerebro se acostumbre a la realidad del juego.
-[pipbot] Montado: pip_656250861.mp4 | EL CEREBRO SE ACOSTUMBRA A GTA 6
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: vegetta777 usable=False nota=0 · El clip se centra exclusivamente en la opinión del streamer sobre las mecánicas del juego y no muestra una acción, bug o detalle concreto dentro del gameplay.
+[pipbot] IA: thegrefg usable=True nota=8 · Muestra una interacción única de la IA con las físicas de los vehículos de movilidad personal en GTA 6.
+[pipbot] Montado: pip_2944282717.mp4 | LA IA REACCIONA A TODO
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File pip_2944282717.mp4 is 56.10 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@729eefd6d8e649b7a33377067a41e431178aaa3e/pip_2944282717.mp4
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 21/11 05:02 UTC
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
+[pipbot] Programado en tiktok para 21/11 05:41 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
