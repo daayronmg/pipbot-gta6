@@ -1,10 +1,12 @@
-[pipbot] 22 clips válidos (modo sin claves)
-[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece a la categoría Just Chatting y no muestra gameplay de GTA 6, solo al streamer hablando sobre suscripciones.
-[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece a la categoría Just Chatting y no muestra gameplay de GTA 6, solo al streamer hablando a cámara.
-[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece a la categoría de Just Chatting y no muestra gameplay de GTA 6. El streamer únicamente habla sobre problemas personales con su factura de la luz.
-[pipbot] IA: auronplay usable=True nota=7 · Muestra mecánicas de interiores, físicas de agua y la ambientación de la casa de Jason.
-[pipbot] Montado: pip_4088536619.mp4 | ROCKSTAR NO OLVIDÓ ESTE DETALLE
-[pipbot] IA: vegetta777 usable=False nota=0 · El clip no contiene gameplay de GTA 6; es el streamer hablando en una sección de Just Chatting con la pantalla en negro.
+[pipbot] 25 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=False nota=0 · No es GTA 6, es un clip de Just Chatting donde el streamer está hablando a cámara sin mostrar gameplay.
+[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece íntegramente a la categoría Just Chatting; no hay gameplay de GTA 6, solo el streamer hablando a cámara.
+[pipbot] IA: elmariana usable=True nota=7 · Muestra una reacción dinámica de la IA ante la conducción del jugador y un interior nuevo.
+[pipbot] Montado: pip_2277050163.mp4 | LOS NPCs TIENEN MUCHA CALLE
+[pipbot] IA: knekro usable=False nota=0 · El clip no es de GTA 6, se trata de un combate de Pokémon.
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@678394c2a033b6b743f083723267db782cdbfcbd/pip_2277050163.mp4
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 21/11 14:00 UTC
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
+[pipbot] Programado en tiktok para 21/11 14:39 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
