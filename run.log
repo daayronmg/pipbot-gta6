@@ -1,17 +1,9 @@
-[pipbot] 33 clips válidos (modo sin claves)
-[pipbot] IA: knekro usable=False nota=0 · El clip no pertenece a GTA 6, se trata de un juego de terror o espacios liminales (posiblemente 'POOLS' o similar).
+[pipbot] 24 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: werlyb usable=False nota=0 · El clip es de League of Legends, no de GTA 6.
-[pipbot] IA: vegetta777 usable=True nota=7 · Muestra una reacción de diálogo única de Lucía tras un accidente, confirmando la interactividad de los NPCs.
-[pipbot] Montado: pip_1485770962.mp4 | LUCÍA NO TIENE PACIENCIA
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@b00b8a3644e45c4a5e44e8f4754752396a1c4303/pip_1485770962.mp4
+[pipbot] IA: auronplay usable=True nota=8 · El clip muestra una mecánica de IA policial reactiva y punitiva que resulta sorprendente para los jugadores.
+[pipbot] Montado: pip_2056677071.mp4 | LA POLICÍA TE PERSIGUE POR ARRANCAR
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
