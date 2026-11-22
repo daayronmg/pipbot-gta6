@@ -1,17 +1,17 @@
-[pipbot] 39 clips válidos (modo sin claves)
+[pipbot] 33 clips válidos (modo sin claves)
+[pipbot] IA: knekro usable=False nota=0 · El clip no pertenece a GTA 6, se trata de un juego de terror o espacios liminales (posiblemente 'POOLS' o similar).
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip muestra un juego que no es GTA 6, es un simulador de limpieza (Viscera Cleanup Detail), por lo tanto no cumple con los requisitos del contexto solicitado.
-[pipbot] IA: thegrefg usable=False nota=0 · El clip muestra una escena de contenido sugerente (baile erótico) sin ninguna mecánica, detalle técnico o curiosidad específica que encaje con el perfil del Profe Pip.
+[pipbot] IA: werlyb usable=False nota=0 · El clip es de League of Legends, no de GTA 6.
+[pipbot] IA: vegetta777 usable=True nota=7 · Muestra una reacción de diálogo única de Lucía tras un accidente, confirmando la interactividad de los NPCs.
+[pipbot] Montado: pip_1485770962.mp4 | LUCÍA NO TIENE PACIENCIA
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip muestra al streamer en los menús del juego y no ocurre ninguna acción destacable dentro del gameplay de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=3 · Es una cinemática de la historia principal (inicio del juego), no aporta una curiosidad, truco o detalle técnico fuera de la narrativa.
+[pipbot] IA: zeling usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@b00b8a3644e45c4a5e44e8f4754752396a1c4303/pip_1485770962.mp4
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
