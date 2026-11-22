@@ -1,15 +1,23 @@
-[pipbot] 24 clips válidos (modo sin claves)
-[pipbot] IA: thegrefg usable=True nota=7 · Muestra el funcionamiento detallado de los cajeros automáticos y el interior de un club nocturno en Vice City.
-[pipbot] Montado: pip_2819071049.mp4 | ¿CÓMO FUNCIONAN LOS CAJEROS AQUÍ?
-[pipbot] IA: auronplay usable=False nota=0 · El clip pertenece a la categoría Just Chatting y muestra al streamer abriendo paquetes físicos; no contiene gameplay de GTA 6.
+[pipbot] 30 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=8 · Muestra un nivel de detalle en el vello corporal del personaje que la mayoría de jugadores no han notado en GTA 6.
-[pipbot] Montado: pip_4920139.mp4 | EL DETALLE MÁS REALISTA DE GTA 6
+[pipbot] IA: rubius usable=True nota=8 · Muestra una mecánica de juego inusual y detallada de Rockstar que los jugadores pueden probar en la ducha.
+[pipbot] Montado: pip_3017740312.mp4 | CONTROL TOTAL EN LA DUCHA
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elxokas usable=False nota=0 · El clip se centra exclusivamente en el streamer hablando sobre sus opiniones personales y el juego, sin mostrar gameplay relevante de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=True nota=8 · El clip muestra una mecánica de combate de vehículos intensa y poco vista en gameplays anteriores, destacando la IA de la policía.
+[pipbot] Montado: pip_1665032624.mp4 | LA POLICÍA NO TE DEJA ESCAPAR
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 22/11 06:30 UTC
+[pipbot] Programado en tiktok para 22/11 07:05 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
-[pipbot] Programado en tiktok para 22/11 06:45 UTC
+[pipbot] Programado en tiktok para 22/11 07:20 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
