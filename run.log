@@ -1,5 +1,21 @@
-[pipbot] 31 clips válidos (modo sin claves)
-[pipbot] IA: thegrefg usable=False nota=0 · El clip pertenece a la categoría de Just Chatting y no muestra gameplay real de GTA 6, solo al streamer hablando frente a su cámara.
-[pipbot] IA: illojuan usable=False nota=0 · El clip consiste íntegramente en el streamer hablando a cámara mientras mira una página web, sin mostrar gameplay real ni ningún detalle o mecánica específica del juego.
-[pipbot] IA: thegrefg usable=False nota=0 · Es un clip del streamer en el menú de pausa hablando de su vida personal, sin contenido real del juego.
+[pipbot] 33 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: thegrefg usable=False nota=3 · El clip se centra exclusivamente en el streamer y su acompañante charlando en 'Just Chatting' sin mostrar ninguna mecánica, detalle o evento relevante dentro del juego GTA 6.
+[pipbot] IA: illojuan usable=False nota=2 · El clip consiste principalmente en el streamer hablando sobre las notas de Metacritic y las opiniones de otros creadores, sin mostrar gameplay real con detalles, mecánicas o sucesos concretos del juego.
+[pipbot] IA: thegrefg usable=False nota=0 · Es un menú de pausa y el streamer solo está hablando, no ocurre nada concreto en el juego.
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
 [pipbot] IA: thegrefg usable=False nota=0 · El clip es de Fortnite, no de GTA 6.
