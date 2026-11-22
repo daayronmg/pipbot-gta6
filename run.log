@@ -1,15 +1,20 @@
-[pipbot] 24 clips válidos (modo sin claves)
+[pipbot] 30 clips válidos (modo sin claves)
+[pipbot] IA: auronplay usable=False nota=0 · Es un clip de Just Chatting (vida real), no hay gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=4 · El clip contiene contenido sexual explícito (escena de club de striptease), lo cual infringe las normas de seguridad y no es apto para una audiencia general.
+[pipbot] IA: illojuan usable=False nota=0 · El clip muestra una escena de sexo explícito, lo cual incumple las directrices de contenido.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · El clip muestra una interacción detallada y poco común del sistema de NPC en el club de striptease de GTA 6.
-[pipbot] Montado: pip_204952904.mp4 | LA IA DE GTA 6 RESPONDE
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción divertida y realista con la IA policial y la libertad de acción en GTA 6.
+[pipbot] Montado: pip_3807344171.mp4 | NO INTENTES ESTO CON LA POLICÍA
+[pipbot] IA: illojuan usable=True nota=8 · Muestra un detalle de físicas extremadamente realista que está siendo muy comentado por la comunidad.
+[pipbot] Montado: pip_3277434526.mp4 | EL DETALLE MÁS REALISTA AL DISPARAR
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 22/11 02:04 UTC
+[pipbot] Programado en tiktok para 22/11 02:38 UTC
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] Programado en tiktok para 22/11 02:53 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
