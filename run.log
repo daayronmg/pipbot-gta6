@@ -1,23 +1,15 @@
-[pipbot] 21 clips válidos (modo sin claves)
+[pipbot] 24 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=True nota=8 · El clip muestra una interacción única de la IA que reacciona a la mirada del jugador, algo muy inmersivo.
-[pipbot] Montado: pip_931005005.mp4 | LA IA REACCIONA A TU MIRADA
+[pipbot] IA: thegrefg usable=False nota=4 · El clip contiene contenido sexual explícito (escena de club de striptease), lo cual infringe las normas de seguridad y no es apto para una audiencia general.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=4 · El clip muestra una escena de striptease explícita, lo cual incumple las normas de contenido seguro y el filtro establecido.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=1 · El clip es solo el streamer hablando de si irá o no al tacón, no se muestra ningún gameplay ni contenido real de GTA 6 en pantalla.
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@36188b19e2edb48f6bd04f1248b810a3b069fe0c/pip_931005005.mp4
+[pipbot] IA: thegrefg usable=True nota=8 · El clip muestra una interacción detallada y poco común del sistema de NPC en el club de striptease de GTA 6.
+[pipbot] Montado: pip_204952904.mp4 | LA IA DE GTA 6 RESPONDE
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
-[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
-[pipbot] Programado en tiktok para 22/11 01:30 UTC
+[pipbot] Programado en tiktok para 22/11 02:04 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
