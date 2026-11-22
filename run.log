@@ -1,20 +1,21 @@
-[pipbot] 30 clips válidos (modo sin claves)
+[pipbot] 24 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
+[pipbot] IA: alexby11 usable=True nota=9 · El clip muestra una interacción única y visualmente impactante con un OVNI en GTA 6 que la mayoría de los jugadores aún no ha descubierto.
+[pipbot] Montado: pip_3066815103.mp4 | OVNIS REALES EN GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=True nota=8 · Muestra una interacción única y realista con el entorno dentro de la cárcel en GTA 6.
-[pipbot] Montado: pip_645196066.mp4 | LA RUTINA REALISTA DE LA CÁRCEL
+[pipbot] IA: elxokas usable=True nota=8 · Muestra un bug visual curioso y divertido donde los NPCs desaparecen o se teletransportan durante una persecución en GTA 6.
+[pipbot] Montado: pip_1500549017.mp4 | DESAPARECEN LOS NPC EN GTA 6
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@b36b046247c0f88d9ca64fbf5aedf207ce7a6763/pip_3066815103.mp4
 [pipbot] Canales: [('tiktok', 'pipteloexplica'), ('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en tiktok para 22/11 07:38 UTC
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] tiktok: Buffer no pudo leer el vídeo, reintento 2
+[pipbot] Programado en tiktok para 22/11 08:19 UTC
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] Programado en tiktok para 22/11 08:34 UTC
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
