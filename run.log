@@ -1,5 +1,9 @@
-[pipbot] 33 clips válidos (modo sin claves)
-[pipbot] IA: vegetta777 usable=True nota=8 · Muestra un diálogo curioso de un NPC sobre un experimento secreto y una criatura desconocida.
-[pipbot] Montado: pip_1917355755.mp4 | LA EXTRAÑA DIETA DE ESTE SER
+[pipbot] 37 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=True nota=7 · Muestra un detalle curioso de la personalización de personajes y la interacción con la tienda en GTA 6.
+[pipbot] Montado: pip_1756244970.mp4 | LA ROPA DE JASON EN GTA 6
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
