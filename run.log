@@ -1,27 +1,26 @@
-[pipbot] 36 clips válidos (modo sin claves)
-[pipbot] IA: elxokas usable=False nota=0 · No es GTA 6 (es World of Warcraft) y se centra en la opinión del streamer.
+[pipbot] 39 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip muestra al streamer hablando de su vida personal en el menú principal del juego, no ocurre nada dentro del juego.
+[pipbot] IA: elxokas usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6, y el contenido se centra exclusivamente en la opinión del streamer.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=3 · Es una cinemática de historia, no un momento de gameplay emergente o curiosidad técnica.
+[pipbot] IA: thegrefg usable=False nota=1 · El clip muestra exclusivamente al streamer en el menú del juego, sin gameplay real ni nada relevante que ocurra en el mundo de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip contiene contenido sexual explícito, lo cual incumple las políticas de seguridad y los criterios de selección de contenido.
+[pipbot] IA: thegrefg usable=False nota=0 · El clip contiene contenido sexual explícito, lo cual incumple las directrices de seguridad y las normas de la comunidad.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=False nota=3 · Es una cinemática de la historia principal (inicio de misión), no es un momento de gameplay emergente ni un detalle curioso jugable.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
 [pipbot] IA: werlyb usable=False nota=0 · El clip es de League of Legends, no de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
