@@ -1,6 +1,13 @@
-[pipbot] 37 clips válidos (modo sin claves)
-[pipbot] IA: auronplay usable=True nota=8 · El clip muestra una interacción de físicas de impacto muy detallada entre el tráfico, el vehículo del jugador y el NPC acompañante (Lucía), algo muy valorado por la comunidad.
-[pipbot] Montado: pip_975197359.mp4 | ¿QUÉ PASA SI GOLPEAN A LUCÍA?
-[pipbot] IA: alexby11 usable=False nota=3 · El clip muestra únicamente un menú de personalización de ropa sin acción, sucesos imprevistos ni detalles con potencial viral.
+[pipbot] 31 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: illojuan usable=True nota=8 · El clip muestra una física realista y graciosa de colisión con un objeto del entorno que sorprende al espectador.
+[pipbot] Montado: pip_431562715.mp4 | LAS FÍSICAS DE GTA 6 SORPRENDEN
+[pipbot] IA: rubius usable=True nota=7 · Muestra una interacción detallada con la IA de los animales y una reacción genuina del streamer.
+[pipbot] Montado: pip_3879906074.mp4 | CUIDADO CON REGAÑAR AL PERRO
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@6a3a2374151b26a75a57beec8c50d40ff53f94f5/pip_431562715.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
