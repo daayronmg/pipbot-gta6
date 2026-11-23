@@ -1,6 +1,22 @@
-[pipbot] 34 clips válidos (modo sin claves)
+[pipbot] 29 clips válidos (modo sin claves)
+[pipbot] IA: rubius usable=True nota=8 · Interacción graciosa de Jason insultando a un NPC con reacción de la IA y localización al castellano.
+[pipbot] Montado: pip_393155270.mp4 | NO INSULTES A LOS NPC ASÍ
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: illojuan usable=False nota=0 · El clip contiene desnudos frontales explícitos (personaje topless), lo cual infringe las normas de comunidad de TikTok y YouTube Shorts sobre contenido sexual.
+[pipbot] IA: illojuan usable=False nota=0 · No es GTA 6. El clip muestra claramente la interfaz de usuario (minimapa y barras de salud) y el mapa (prisión de Bolingbroke) de GTA 5 con mods.
+[pipbot] IA: illojuan usable=True nota=8 · Muestra la increíble IA reactiva de los NPCs en entornos sociales y la reacción viral del streamer.
+[pipbot] Montado: pip_2404033865.mp4 | LOS NPC TE VACILAN SI TE ACERCAS
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
