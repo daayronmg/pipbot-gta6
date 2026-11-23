@@ -1,4 +1,18 @@
-[pipbot] 26 clips válidos (modo sin claves)
+[pipbot] 34 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: auronplay usable=True nota=8 · Es un bug visual muy gracioso y concreto que ocurre con un streamer top, ideal para captar retención.
+[pipbot] Montado: pip_1886925024.mp4 | EL MÓVIL MÁS RARO DE GTA
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
@@ -19,6 +33,7 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=False nota=0 · El clip no es de GTA 6, es una partida de Clash Royale.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
@@ -31,85 +46,9 @@
   }
 }
 
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: alexby11 usable=False nota=0 · El clip solo muestra al streamer hablando de temas personales, no hay gameplay de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip consiste enteramente en el streamer dando su opinión sobre un tema sin mostrar ninguna mecánica, detalle o elemento concreto del juego en pantalla.
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=True nota=8 · Muestra una interacción graciosa y poco común con NPCs nudistas y su IA agresiva
+[pipbot] Montado: pip_3526512054.mp4 | NO MOLESTES A LOS NUDISTAS
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@0e11726d7bbb2e38621b9af64fdfda68a3eddc58/pip_3526512054.mp4
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
