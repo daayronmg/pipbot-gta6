@@ -1,20 +1,4 @@
-[pipbot] 27 clips válidos (modo sin claves)
-[pipbot] IA: knekro usable=False nota=0 · No es GTA 6. Se trata de un juego de simulación de limpieza o físicas con piscinas de bolas, no coincide con la estética, personajes ni interfaz del juego de Rockstar.
-[pipbot] IA: knekro usable=False nota=0 · El clip no es de GTA 6, es un juego indie llamado Playrooms.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: vegetta777 usable=True nota=8 · Es un detalle curioso y algo turbio de exploración que funciona muy bien como easter egg.
-[pipbot] Montado: pip_1186976744.mp4 | ROCKSTAR ESCONDIÓ ESTO EN LOS MUELLES
+[pipbot] 26 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
@@ -75,6 +59,57 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip no pertenece a GTA 6; se trata de un juego con estética de sistema operativo retro y gestión de habilidades que no corresponde al universo de Leonida.
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: alexby11 usable=False nota=0 · El clip solo muestra al streamer hablando de temas personales, no hay gameplay de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elxokas usable=False nota=0 · El clip consiste enteramente en el streamer dando su opinión sobre un tema sin mostrar ninguna mecánica, detalle o elemento concreto del juego en pantalla.
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
