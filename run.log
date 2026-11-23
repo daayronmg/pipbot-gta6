@@ -1,14 +1,9 @@
-[pipbot] 37 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=8 · Muestra la reacción agresiva y coordinada de la IA al interactuar con objetos en la playa.
-[pipbot] Montado: pip_2823986172.mp4 | NO MOLESTES A LOS TURISTAS
-[pipbot] IA: thegrefg usable=False nota=0 · El clip se centra casi exclusivamente en el streamer hablando sobre un sorteo de códigos y no muestra ninguna mecánica, detalle o curiosidad relevante del juego.
-[pipbot] IA: thegrefg usable=False nota=0 · El clip consiste principalmente en el streamer comentando una escena estándar de un club de alterne sin que ocurra ningún evento técnico, bug o detalle especial del juego, además de contener desnudos que limitan su viralidad.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=True nota=7 · Muestra la interactividad y nivel de detalle de las tiendas en GTA 6 con NPCs realistas.
-[pipbot] Montado: pip_2592801852.mp4 | LAS TIENDAS DE GTA 6 VIVEN
+[pipbot] 30 clips válidos (modo sin claves)
+[pipbot] IA: illojuan usable=False nota=3 · El clip muestra una escena de un club de alterne sin ningún detalle, mecánica oculta, física especial o suceso concreto que justifique una explicación del Profe Pip.
+[pipbot] IA: illojuan usable=True nota=8 · Ataque sorpresa de caimán que muestra el realismo de la fauna y el peligro del entorno en Leonida.
+[pipbot] Montado: pip_2504902611.mp4 | NUNCA TE FÍES DEL PANTANO
+[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción opcional y detallada entre los dos protagonistas que muchos jugadores podrían pasar por alto.
+[pipbot] Montado: pip_2205434025.mp4 | DETALLE OCULTO EN LA DUCHA
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
