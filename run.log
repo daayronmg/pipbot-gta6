@@ -1,16 +1,10 @@
 [pipbot] 35 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=7 · Muestra el detalle técnico de la iluminación dinámica en el humo y el entorno durante un tiroteo nocturno.
-[pipbot] Montado: pip_2705202113.mp4 | CADA DISPARO ILUMINA EL HUMO
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: thegrefg usable=True nota=8 · Es un momento gracioso y muy específico de la IA del juego que resulta muy viral.
-[pipbot] Montado: pip_1171043133.mp4 | NO TE ACERQUES A ESTE MONO
+[pipbot] IA: rubius usable=False nota=0 · No es GTA 6 (es una cinemática de The Last of Us Part II) y contiene contenido sexual explícito/spoiler.
+[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción de combate realista con un NPC y el sistema de saqueo tras un accidente.
+[pipbot] Montado: pip_4802227.mp4 | CUIDADO CON QUIÉN TE PELEAS
+[pipbot] IA: illojuan usable=True nota=8 · Muestra las físicas avanzadas de colisión con la vegetación, un detalle técnico muy esperado de GTA 6.
+[pipbot] Montado: pip_834502653.mp4 | ESTOS ÁRBOLES NO SON DECORACIÓN
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@2a7cf6871891e3c994b81c13471b890004188809/pip_4802227.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
