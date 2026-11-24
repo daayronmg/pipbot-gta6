@@ -1,24 +1,21 @@
-[pipbot] 33 clips válidos (modo sin claves)
-[pipbot] IA: auronplay usable=False nota=0 · No es GTA 6, es un clip de Just Chatting donde solo sale el streamer hablando a cámara.
-[pipbot] IA: thegrefg usable=False nota=0 · El clip se centra casi exclusivamente en los comentarios y bromas del streamer sobre su situación personal y económica, sin mostrar una mecánica, secreto o detalle técnico relevante del juego que justifique un análisis del Profe Pip.
-[pipbot] IA: auronplay usable=False nota=0 · Es un clip de Just Chatting sin gameplay de GTA 6, se trata del streamer interactuando con su audiencia.
+[pipbot] 34 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
+[pipbot] IA: rubius usable=True nota=7 · El clip muestra una interacción de la IA con el entorno y la capacidad de analizar objetos/NPCs, algo que muchos jugadores desconocen.
+[pipbot] Montado: pip_511002870.mp4 | ANALIZA CUALQUIER NPC EN GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+[pipbot] IA: auronplay usable=False nota=0 · El clip es puramente 'Just Chatting' y no muestra ninguna partida de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=True nota=8 · Muestra una interacción compleja e inmersiva con NPCs en GTA 6 que los jugadores pueden explorar
+[pipbot] Montado: pip_3456515087.mp4 | NO TE CREERÁS ESTA INTERACCIÓN
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
