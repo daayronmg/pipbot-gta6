@@ -1,9 +1,36 @@
 [pipbot] 35 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=7 · Muestra un momento gracioso de distracción con la interfaz y una reacción típica del streamer.
-[pipbot] Montado: pip_3050180279.mp4 | CUIDADO CON MIRAR LA STAMINA
-[pipbot] IA: illojuan usable=True nota=8 · Muestra las físicas de ragdoll e inercia tras una explosión en el mundo abierto.
-[pipbot] Montado: pip_3817274724.mp4 | LAS NUEVAS FÍSICAS DE RAGDOLL
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@4f1fbcf37d222bee914a20f814c7a2703df4a0fa/pip_3050180279.mp4
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una mecánica de juego realista y frustrante que añade valor a la experiencia de juego.
+[pipbot] Montado: pip_2515300177.mp4 | LA RECARGA TE PUEDE MATAR
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=True nota=7 · Muestra una física de conducción muy precisa y el exceso de confianza del jugador, un momento muy relatable en GTA.
+[pipbot] Montado: pip_3617103789.mp4 | EL EXCESO DE CONFIANZA SE PAGA
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
