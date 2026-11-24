@@ -1,28 +1,18 @@
-[pipbot] 33 clips válidos (modo sin claves)
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: illojuan usable=True nota=8 · Reacción muy graciosa del streamer a un evento de audio de la IA durante el sigilo.
-[pipbot] Montado: pip_1817964823.mp4 | EL GRITO QUE ASUSTÓ A JUAN
+[pipbot] 26 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=False nota=0 · El clip muestra únicamente la pantalla de menú del juego mientras el streamer habla a cámara; no hay gameplay ni sucede nada concreto dentro del mundo de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip consiste principalmente en el streamer hablando con su chat sobre qué coche elegir mientras conduce de forma normal, sin que ocurra ningún evento especial, bug o detalle relevante en el juego.
+[pipbot] IA: elmariana usable=True nota=8 · Un avión se estrella de forma aleatoria justo delante del streamer mientras conduce.
+[pipbot] Montado: pip_1591160115.mp4 | ESTE AVIÓN CASI MATA A MARIANA
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · El jugador muestra un coche icónico de la cultura pop perfectamente recreado en el juego, lo cual genera nostalgia y curiosidad.
-[pipbot] Montado: pip_4223963601.mp4 | EL COCHE DE PAUL WALKER EXISTE
+[pipbot] IA: ibai usable=False nota=0 · El vídeo es una partida de League of Legends, no es GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elxokas usable=False nota=0 · El clip corresponde al videojuego World of Warcraft, no a GTA 6, por lo que no cumple con el requisito temático.
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@bad04c12810755c47cffb9b1b6aff8e6f169543f/pip_1591160115.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
