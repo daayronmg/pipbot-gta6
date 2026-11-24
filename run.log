@@ -1,12 +1,28 @@
-[pipbot] 27 clips válidos (modo sin claves)
-[pipbot] IA: thegrefg usable=True nota=7 · Muestra la increíble profundidad técnica del nuevo modo foto de GTA 6.
-[pipbot] Montado: pip_398538013.mp4 | ESTUDIO DE FOTOGRAFÍA EN GTA 6
+[pipbot] 33 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: illojuan usable=True nota=8 · Reacción muy graciosa del streamer a un evento de audio de la IA durante el sigilo.
+[pipbot] Montado: pip_1817964823.mp4 | EL GRITO QUE ASUSTÓ A JUAN
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=True nota=7 · Se muestra un bug de físicas cómico con el hidroavión de GTA 6 que resulta entretenido.
-[pipbot] Montado: pip_3726195809.mp4 | EL AVIÓN MÁS TORPE DE LEONIDA
+[pipbot] IA: rubius usable=True nota=8 · El jugador muestra un coche icónico de la cultura pop perfectamente recreado en el juego, lo cual genera nostalgia y curiosidad.
+[pipbot] Montado: pip_4223963601.mp4 | EL COCHE DE PAUL WALKER EXISTE
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
