@@ -1,2 +1,14 @@
-[pipbot] 35 clips válidos (modo sin claves)
-[pipbot] IA: knekro usable=False nota=0 · El vídeo no es de GTA 6; se trata de un juego de terror de espacios liminales (probablemente Pools o similar) y no tiene relación con el universo de Rockstar.
+[pipbot] 32 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: knekro usable=False nota=0 · El clip no pertenece a GTA 6; se trata de un juego de terror de espacios liminales (estilo 'Pools' o similar) y no cumple con la temática requerida.
