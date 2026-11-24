@@ -1,8 +1,16 @@
 [pipbot] 35 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=7 · Muestra el regreso del sistema de estadísticas físicas (cardio) en el mundo abierto de GTA 6.
-[pipbot] Montado: pip_2745281613.mp4 | VUELVEN LAS ESTADÍSTICAS DE PERSONAJE
-[pipbot] IA: thegrefg usable=False nota=3 · El clip se centra exclusivamente en el streamer cantando una parodia mientras conduce, sin mostrar ninguna mecánica, detalle oculto o evento relevante del juego.
-[pipbot] IA: elmariana usable=False nota=0 · No es gameplay de GTA 6; se trata de una sección de Just Chatting donde el streamer muestra ilustraciones artísticas en un navegador.
-[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece a la categoría Just Chatting y no muestra contenido de GTA 6, solo al streamer enseñando un teclado.
+[pipbot] IA: illojuan usable=True nota=7 · Muestra el detalle técnico de la iluminación dinámica en el humo y el entorno durante un tiroteo nocturno.
+[pipbot] Montado: pip_2705202113.mp4 | CADA DISPARO ILUMINA EL HUMO
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: thegrefg usable=True nota=8 · Es un momento gracioso y muy específico de la IA del juego que resulta muy viral.
+[pipbot] Montado: pip_1171043133.mp4 | NO TE ACERQUES A ESTE MONO
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
 [pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
