@@ -1,11 +1,19 @@
-[pipbot] 23 clips válidos (modo sin claves)
-[pipbot] IA: thegrefg usable=True nota=7 · El clip muestra un momento divertido donde el streamer lucha con las nuevas físicas de escalada del juego.
-[pipbot] Montado: pip_1837768235.mp4 | GREFG SE PELEA CON EL BARCO
+[pipbot] 30 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=False nota=0 · El clip muestra a la streamer en el menú del juego, no hay gameplay ni ninguna acción concreta dentro de GTA 6.
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@6d2da660f109902ba022a33f76c09e3587c20cfb/pip_1837768235.mp4
+[pipbot] IA: illojuan usable=True nota=8 · Muestra una reacción realista y detallada de la IA al recibir un disparo, algo que destaca por el nivel de inmersión.
+[pipbot] Montado: pip_2620810581.mp4 | LA IA MÁS REALISTA DE ROCKSTAR
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción realista y divertida de la IA de GTA 6 en el club nocturno, algo que los jugadores aún están descubriendo.
+[pipbot] Montado: pip_3186943592.mp4 | LA IA DE GTA 6 ES REAL
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@386e2c6e16ea68072f2efac8a9c8031b9373c464/pip_3186943592.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: huecos reservados para los Shorts recuperados, este va solo a TikTok
+[pipbot] Programado en youtube para 25/11 00:48 UTC
+[pipbot] youtube: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] youtube: Buffer no pudo leer el vídeo, reintento 2
+[pipbot] Programado en youtube para 25/11 01:03 UTC
