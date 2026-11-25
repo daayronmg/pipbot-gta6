@@ -1,16 +1,16 @@
-[pipbot] 21 clips válidos (modo sin claves)
+[pipbot] 26 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=0 · El clip es únicamente el streamer hablando y cantando, no muestra gameplay de GTA 6.
+[pipbot] IA: rubius usable=True nota=8 · Muestra una mecánica de juego cooperativa detallada y realista que los jugadores no han visto mucho todavía.
+[pipbot] Montado: pip_2248650863.mp4 | ROBO COOPERATIVO EN GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip es de World of Warcraft, no es GTA 6.
+[pipbot] IA: illojuan usable=True nota=8 · Es un easter egg concreto y curioso que los jugadores aún están descubriendo en el mapa de GTA 6.
+[pipbot] Montado: pip_403187603.mp4 | NO TE ACERQUES AL OVNIS
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
