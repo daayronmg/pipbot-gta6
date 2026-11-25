@@ -1,17 +1,8 @@
-[pipbot] 28 clips válidos (modo sin claves)
-[pipbot] IA: rubius usable=True nota=8 · Muestra las físicas de colisión del patinete eléctrico y una interacción graciosa con el vapeador.
-[pipbot] Montado: pip_2139633119.mp4 | NO INTENTES VAPEAR EN PATINETE
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: illojuan usable=True nota=8 · Es un momento gracioso y único de la IA de GTA 6 que la gente no suele ver.
-[pipbot] Montado: pip_2037631423.mp4 | LA IA DE GTA 6 ES RARA
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@c82d11eff4955e1e412d18a71e9debbb2c916324/pip_2139633119.mp4
+[pipbot] 22 clips válidos (modo sin claves)
+[pipbot] IA: elxokas usable=False nota=0 · No es GTA 6; el vídeo muestra a elxokas reaccionando a un clip de World of Warcraft en Twitter.
+[pipbot] IA: elxokas usable=False nota=0 · No es GTA 6, el clip muestra jugabilidad de World of Warcraft.
+[pipbot] IA: auronplay usable=True nota=7 · Las físicas de colisión con NPCs en bicicleta muestran un realismo superior al de entregas anteriores y el ragdoll es muy fluido.
+[pipbot] Montado: pip_3109700162.mp4 | ESTO PASA SI ATROPELLAS CICLISTAS
+[pipbot] IA: elxokas usable=False nota=0 · El clip muestra contenido de World of Warcraft y una reacción a un vídeo de Instagram, no es GTA 6.
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
