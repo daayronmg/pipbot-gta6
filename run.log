@@ -1,17 +1,6 @@
-[pipbot] 21 clips válidos (modo sin claves)
-[pipbot] IA: elmariana usable=False nota=0 · El clip es de la categoría Just Chatting y consiste únicamente en el streamer hablando a cámara, sin gameplay de GTA 6.
-[pipbot] IA: elmariana usable=False nota=0 · El clip es contenido de Just Chatting, no muestra gameplay de GTA 6 y consiste únicamente en el streamer hablando a cámara.
-[pipbot] IA: elmariana usable=False nota=0 · No es GTA 6, es una sección de Just Chatting donde el streamer habla con su chat.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: elxokas usable=False nota=0 · No es GTA 6 (es World of Warcraft) y el clip se centra únicamente en el streamer hablando, sin ninguna mecánica o detalle relevante del juego.
+[pipbot] 18 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=False nota=0 · El clip es de la categoría Just Chatting y no contiene gameplay de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece a la categoría Just Chatting y no contiene gameplay de GTA 6, solo al streamer hablando con su chat.
+[pipbot] IA: elmariana usable=False nota=0 · El clip pertenece a la categoría Just Chatting y no contiene gameplay de GTA 6.
+[pipbot] IA: elxokas usable=False nota=0 · El clip no es de GTA 6, se trata de World of Warcraft, y el contenido consiste únicamente en el streamer hablando sobre comida con lenguaje soez.
+[pipbot] IA: vegetta777 usable=False nota=0 · El clip transcurre íntegramente en el menú del mapa y no muestra ninguna acción, física o evento concreto del juego.
