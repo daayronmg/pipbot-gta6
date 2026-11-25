@@ -1,20 +1,31 @@
-[pipbot] 26 clips válidos (modo sin claves)
-[pipbot] IA: thegrefg usable=False nota=0 · El clip se centra principalmente en la opinión y reacción del streamer sobre un programa o filtro gráfico externo, sin que ocurra nada concreto dentro del juego (físicas, IA, secretos o mecánicas).
+[pipbot] 29 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=True nota=8 · Muestra una mecánica de vuelo realista y un choque espectacular con el terreno en el motor de GTA 6.
-[pipbot] Montado: pip_1940421764.mp4 | NO INTENTES VOLAR BAJO
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=0 · El clip es únicamente el streamer hablando y cantando en su habitación, no hay imágenes de gameplay de GTA 6.
+[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=False nota=0 · El clip es únicamente el streamer cantando en la sección de 'Just Chatting' y no muestra ningún contenido de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
 [pipbot] IA: elxokas usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
