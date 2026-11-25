@@ -1,19 +1,21 @@
-[pipbot] 30 clips válidos (modo sin claves)
+[pipbot] 26 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=8 · Muestra una reacción realista y detallada de la IA al recibir un disparo, algo que destaca por el nivel de inmersión.
-[pipbot] Montado: pip_2620810581.mp4 | LA IA MÁS REALISTA DE ROCKSTAR
+[pipbot] IA: rubius usable=True nota=8 · El clip muestra una interacción única del sistema de cámaras en GTA 6 que revela detalles narrativos ocultos en el juego.
+[pipbot] Montado: pip_694439545.mp4 | FOTOS PROHIBIDAS EN GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · Muestra una interacción realista y divertida de la IA de GTA 6 en el club nocturno, algo que los jugadores aún están descubriendo.
-[pipbot] Montado: pip_3186943592.mp4 | LA IA DE GTA 6 ES REAL
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@386e2c6e16ea68072f2efac8a9c8031b9373c464/pip_3186943592.mp4
+[pipbot] IA: thegrefg usable=False nota=0 · El clip solo muestra al streamer conduciendo por una carretera sin que ocurra ningún evento, detalle o interacción relevante en el juego.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: illojuan usable=True nota=8 · Muestra un detalle técnico realista y poco común sobre la interacción del agua con el cabello en el juego.
+[pipbot] Montado: pip_2583370833.mp4 | LA FÍSICA DEL PELO EN GTA 6
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en youtube para 25/11 00:48 UTC
-[pipbot] youtube: Buffer no pudo leer el vídeo, reintento 1
-[pipbot] youtube: Buffer no pudo leer el vídeo, reintento 2
-[pipbot] Programado en youtube para 25/11 01:03 UTC
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
