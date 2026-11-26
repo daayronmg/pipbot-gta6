@@ -1,4 +1,34 @@
-[pipbot] 24 clips válidos (modo sin claves)
+[pipbot] 27 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=False nota=0 · El clip muestra al streamer en la vida real, no es gameplay de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece al juego GTA 6, es contenido de la vida real de un streamer (Just Chatting).
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
@@ -43,29 +73,4 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip muestra un juego que no es GTA 6 (es The Legend of Zelda), por lo tanto no cumple con la temática requerida.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip muestra a streamers en la vida real en una atracción, no es gameplay de GTA 6.
+[pipbot] IA: knekro usable=False nota=0 · El clip muestra un juego que no es GTA 6 (es The Legend of Zelda), por lo que no cumple con el contexto requerido.
