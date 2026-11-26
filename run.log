@@ -1,8 +1,26 @@
-[pipbot] 24 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=8 · Muestra una interacción de la IA donde un NPC delincuente intenta robar el coche que el jugador iba a usar, con diálogos específicos.
-[pipbot] Montado: pip_3669806332.mp4 | ESTE NPC INTENTÓ ROBARLE EL COCHE
-[pipbot] IA: rubius usable=True nota=8 · Físicas de colisión realistas y momento gracioso del streamer ante un evento inesperado de la IA.
-[pipbot] Montado: pip_430900662.mp4 | CUIDADO AL RECOGER ESTE DINERO
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en youtube para 26/11 00:32 UTC
-[pipbot] Programado en youtube para 26/11 00:47 UTC
+[pipbot] 27 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=False nota=1 · El clip es únicamente el streamer hablando en su habitación (Just Chatting) y no muestra ningún contenido de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: knekro usable=False nota=0 · El clip no es de GTA 6, es de un juego de Zelda.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: knekro usable=False nota=0 · El clip es de The Legend of Zelda, no de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=False nota=0 · El clip es únicamente el streamer hablando de un problema técnico con su ordenador, no ocurre nada dentro del juego GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=False nota=3 · El clip muestra al streamer navegando por un menú del juego y reaccionando a un mensaje personal, no hay ninguna mecánica, bug o evento del juego que sea relevante para un espectador.
