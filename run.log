@@ -1,11 +1,20 @@
-[pipbot] 21 clips válidos (modo sin claves)
-[pipbot] IA: knekro usable=False nota=0 · El clip no es de GTA 6, se trata de The Legend of Zelda: Ocarina of Time.
+[pipbot] 22 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: vegetta777 usable=True nota=8 · Muestra una reacción realista y orgánica de la IA de los moteros en GTA 6 al ser provocados.
-[pipbot] Montado: pip_1332085223.mp4 | NO PROVOQUES A LOS MOTEROS
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@d1df3dc000ec0b15917ace3ade32b4809c36a0e2/pip_1332085223.mp4
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece a GTA 6, es contenido real de una actividad física con burbujas en un estadio.
+[pipbot] IA: knekro usable=False nota=0 · No es GTA 6, es The Legend of Zelda: Ocarina of Time.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: werlyb usable=False nota=0 · El clip es de League of Legends, no de GTA 6.
