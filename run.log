@@ -3,37 +3,12 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es de The Legend of Zelda: Majora's Mask, no es GTA 6.
+[pipbot] IA: rubius usable=True nota=7 · El clip muestra una diferencia mecánica clave entre GTA 6 y GTA 5 que es relevante para los jugadores.
+[pipbot] Montado: pip_4152337321.mp4 | EL PARACAÍDAS CAMBIÓ EN GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece al juego GTA 6, se trata de personas reales en un evento de 'bubble soccer' fuera del juego.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra una interacción cotidiana y detallada de los personajes en GTA 6 que genera curiosidad sobre el nivel de realismo del juego.
-[pipbot] Montado: pip_3735437156.mp4 | EL NIVEL DE DETALLE DE GTA 6
+[pipbot] IA: werlyb usable=False nota=0 · El clip es de League of Legends, no de GTA 6.
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
