@@ -1,32 +1,21 @@
-[pipbot] 17 clips válidos (modo sin claves)
+[pipbot] 24 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es del juego The Legend of Zelda: Ocarina of Time, no es GTA 6.
+[pipbot] IA: illojuan usable=True nota=8 · Muestra una interacción física divertida y poco común con un objeto inusual en el mundo abierto.
+[pipbot] Montado: pip_2891172133.mp4 | NO TE CREERÁS ESTA FÍSICA
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip no pertenece a GTA 6, se trata de un streamer reaccionando a un vídeo de The Legend of Zelda: Ocarina of Time.
-[pipbot] IA: elmariana usable=False nota=0 · El vídeo no es de GTA 6, es contenido de la vida real (IRL) del streamer en un estadio.
+[pipbot] IA: vegetta777 usable=False nota=3 · El clip es una cinemática de la historia (spoiler) y se centra en el streamer hablando, no en una mecánica de juego jugable.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=True nota=8 · Muestra un detalle de comportamiento social de los NPCs en una fiesta de GTA 6 que resulta curioso y gracioso.
+[pipbot] Montado: pip_1704687425.mp4 | LA FIESTA MÁS RARA DE LEONIDA
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
