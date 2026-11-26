@@ -1,12 +1,39 @@
-[pipbot] 28 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=8 · Interacción realista de la IA al ser apuntada con un arma de larga distancia.
-[pipbot] Montado: pip_3792526045.mp4 | LA IA TE VE APUNTAR
+[pipbot] 25 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=True nota=8 · El clip muestra una interacción física realista y cómica con los NPCs en GTA 6 que resulta muy entretenida.
-[pipbot] Montado: pip_3714429173.mp4 | NO GOLPEES ASÍ A LOS NPC
+[pipbot] IA: knekro usable=False nota=0 · El clip es de The Legend of Zelda: Majora's Mask, no es GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece al juego GTA 6, se trata de personas reales en un evento de 'bubble soccer' fuera del juego.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: thegrefg usable=True nota=8 · Muestra una interacción cotidiana y detallada de los personajes en GTA 6 que genera curiosidad sobre el nivel de realismo del juego.
+[pipbot] Montado: pip_3735437156.mp4 | EL NIVEL DE DETALLE DE GTA 6
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
