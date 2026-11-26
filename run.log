@@ -1,32 +1,11 @@
-[pipbot] 28 clips válidos (modo sin claves)
+[pipbot] 21 clips válidos (modo sin claves)
+[pipbot] IA: knekro usable=False nota=0 · El clip no es de GTA 6, se trata de The Legend of Zelda: Ocarina of Time.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · El clip muestra una interacción curiosa y realista con un NPC que reacciona de forma inesperada, algo que destaca la calidad de la IA en GTA 6.
-[pipbot] Montado: pip_1105298640.mp4 | NO TE ACERQUES A ESTOS NPCS
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es de The Legend of Zelda: Ocarina of Time, no de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip muestra un juego de Zelda, no es GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: perxitaa usable=False nota=0 · El clip es principalmente el streamer hablando en su cámara y navegando menús, sin mostrar ninguna mecánica de juego o evento concreto del mundo de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra una mecánica de combate muy fluida y satisfactoria en GTA 6, lo que genera curiosidad sobre el nuevo sistema de disparos.
-[pipbot] Montado: pip_1064006796.mp4 | EL COMBATE MÁS REALISTA DE GTA 6
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@ca61cada9147627e8d1db49bdd2daee151778554/pip_1064006796.mp4
+[pipbot] IA: vegetta777 usable=True nota=8 · Muestra una reacción realista y orgánica de la IA de los moteros en GTA 6 al ser provocados.
+[pipbot] Montado: pip_1332085223.mp4 | NO PROVOQUES A LOS MOTEROS
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@d1df3dc000ec0b15917ace3ade32b4809c36a0e2/pip_1332085223.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
