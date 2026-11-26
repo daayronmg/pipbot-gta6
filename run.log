@@ -1,6 +1,32 @@
-[pipbot] 23 clips válidos (modo sin claves)
+[pipbot] 17 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: vegetta777 usable=False nota=4 · El clip muestra una escena de una cinemática de la historia principal, lo cual viola la regla de no publicar spoilers ni momentos de la trama.
+[pipbot] IA: knekro usable=False nota=0 · El clip es del juego The Legend of Zelda: Ocarina of Time, no es GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: knekro usable=False nota=0 · El clip no pertenece a GTA 6, se trata de un streamer reaccionando a un vídeo de The Legend of Zelda: Ocarina of Time.
+[pipbot] IA: elmariana usable=False nota=0 · El vídeo no es de GTA 6, es contenido de la vida real (IRL) del streamer en un estadio.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3.1-flash-lite-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Análisis IA falló: gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
