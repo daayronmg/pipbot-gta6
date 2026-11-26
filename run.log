@@ -3,34 +3,34 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip es un momento de 'Just Chatting' en un estadio, no muestra gameplay de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece al juego GTA 6, es contenido de la vida real (un parque de atracciones).
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip es de una persona en un juego inflable de la vida real, no es contenido de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip muestra a personas reales en una actividad física (bubble soccer) y no contiene gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=7 · Muestra una interacción romántica inesperada entre los protagonistas al realizar una acción cotidiana, lo que humaniza a los personajes.
-[pipbot] Montado: pip_2143505670.mp4 | ROMANCE REALISTA EN GTA 6
+[pipbot] IA: elmariana usable=False nota=0 · El vídeo muestra a un streamer en la vida real hablando sobre un set de grabación, no es gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip muestra a streamers en un evento de la vida real (Just Chatting), no es contenido dentro del juego GTA 6.
+[pipbot] IA: knekro usable=False nota=0 · El clip muestra al streamer jugando a The Legend of Zelda, no a GTA 6, por lo que no cumple con la temática requerida.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=1 · El clip es únicamente el streamer hablando y reaccionando a una mosca en su habitación, no contiene gameplay de GTA 6.
+[pipbot] IA: auronplay usable=False nota=3 · El clip se centra exclusivamente en la reacción del streamer al recibir un sticker con sonido en el chat, sin mostrar ninguna mecánica, detalle o acción dentro del juego GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · Muestra una mecánica de juego cooperativa y física de GTA 6 que resulta interesante para el espectador.
-[pipbot] Montado: pip_294258779.mp4 | ROBOS COOPERATIVOS EN GTA 6
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] IA: knekro usable=False nota=0 · El clip muestra un juego que no es GTA 6 (es The Legend of Zelda), por lo tanto no cumple con el contexto solicitado.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=False nota=3 · El clip es únicamente el streamer hablando de su ordenador y no muestra nada de gameplay de GTA 6.
