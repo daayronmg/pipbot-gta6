@@ -1,24 +1,15 @@
 [pipbot] 25 clips válidos (modo sin claves)
+[pipbot] IA: illojuan usable=True nota=7 · El clip muestra una interacción curiosa con un NPC pasajero y físicas realistas en la puerta del vehículo al aparcar.
+[pipbot] Montado: pip_2132913932.mp4 | ¿QUIÉN IBA EN EL COCHE?
+[pipbot] IA: knekro usable=False nota=0 · No es GTA 6, es The Legend of Zelda: Ocarina of Time.
+[pipbot] IA: knekro usable=False nota=0 · El clip no pertenece a GTA 6; se trata de un juego de la saga The Legend of Zelda (Link tocando la ocarina).
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip muestra al streamer jugando a The Legend of Zelda: Ocarina of Time, no es GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es un streamer haciendo 'Just Chatting' y vistiendo un disfraz, no contiene gameplay ni contenido relacionado con GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra una mecánica de juego emergente y un momento cómico con las físicas de explosión en GTA 6.
-[pipbot] Montado: pip_825923131.mp4 | NO INTENTES ESTO EN GTA 6
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es de The Legend of Zelda: Ocarina of Time, no es GTA 6.
+[pipbot] IA: knekro usable=False nota=0 · El clip es de un juego que no es GTA 6 (es The Legend of Zelda: Twilight Princess), por lo que no cumple con la premisa de contenido de GTA 6.
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción divertida del streamer con los modelos de los protagonistas, destacando el realismo del juego.
+[pipbot] Montado: pip_2209763756.mp4 | AURON COMPARA A LOS PROTAGONISTAS
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
