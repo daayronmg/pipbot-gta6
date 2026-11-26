@@ -3,29 +3,34 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip es contenido de 'Just Chatting' y no muestra gameplay de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip es un momento de 'Just Chatting' en un estadio, no muestra gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip no es de GTA 6, es de una persona en un parque de atracciones o evento en la vida real.
+[pipbot] IA: elmariana usable=False nota=0 · El clip es de una persona en un juego inflable de la vida real, no es contenido de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip muestra a streamers en la vida real en una atracción, no es gameplay de GTA 6.
+[pipbot] IA: illojuan usable=True nota=7 · Muestra una interacción romántica inesperada entre los protagonistas al realizar una acción cotidiana, lo que humaniza a los personajes.
+[pipbot] Montado: pip_2143505670.mp4 | ROMANCE REALISTA EN GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=0 · El clip es un momento de 'Just Chatting' donde el streamer interactúa con una mosca en su habitación, no hay gameplay de GTA 6 ni nada relevante sobre el juego.
+[pipbot] IA: elmariana usable=False nota=0 · El clip muestra a streamers en un evento de la vida real (Just Chatting), no es contenido dentro del juego GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=0 · El clip es de The Legend of Zelda: Ocarina of Time, no es GTA 6.
+[pipbot] IA: auronplay usable=False nota=1 · El clip es únicamente el streamer hablando y reaccionando a una mosca en su habitación, no contiene gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=4 · El clip se centra principalmente en la reacción del streamer al recibir un mensaje de otro usuario, no en una mecánica o evento dentro del juego.
+[pipbot] IA: rubius usable=True nota=8 · Muestra una mecánica de juego cooperativa y física de GTA 6 que resulta interesante para el espectador.
+[pipbot] Montado: pip_294258779.mp4 | ROBOS COOPERATIVOS EN GTA 6
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
