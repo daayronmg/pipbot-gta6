@@ -1,21 +1,22 @@
-[pipbot] 24 clips válidos (modo sin claves)
+[pipbot] 21 clips válidos (modo sin claves)
+[pipbot] IA: auronplay usable=False nota=0 · No es GTA 6, se trata de un clip de Just Chatting donde el streamer habla sobre asistir a una gala de premios.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=8 · Muestra una interacción física divertida y poco común con un objeto inusual en el mundo abierto.
-[pipbot] Montado: pip_2891172133.mp4 | NO TE CREERÁS ESTA FÍSICA
+[pipbot] IA: illojuan usable=True nota=8 · El clip muestra una física de impacto de bala inusual y poco común en la IA de GTA 6.
+[pipbot] Montado: pip_894669501.mp4 | LA FÍSICA MÁS RARA DE GTA 6
+[pipbot] IA: rubius usable=False nota=0 · No ocurre nada concreto en el gameplay más allá de explorar un interior; no hay un detalle, bug o mecánica especial que justifique un clip viral.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: vegetta777 usable=False nota=3 · El clip es una cinemática de la historia (spoiler) y se centra en el streamer hablando, no en una mecánica de juego jugable.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=True nota=8 · Muestra un detalle de comportamiento social de los NPCs en una fiesta de GTA 6 que resulta curioso y gracioso.
-[pipbot] Montado: pip_1704687425.mp4 | LA FIESTA MÁS RARA DE LEONIDA
+[pipbot] IA: auronplay usable=True nota=8 · El clip muestra una mecánica de huida realista donde el jugador roba un coche patrulla y la IA intenta recuperarlo activamente, algo que resalta la profundidad del juego.
+[pipbot] Montado: pip_1350265482.mp4 | ROBAR UN PATRULLA EN GTA 6
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@0adf6d0318b3bcca8225156e4d59ad25b7056c5a/pip_1350265482.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] youtube: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] Programado en youtube para 27/11 03:16 UTC
+[pipbot] youtube: Buffer no pudo leer el vídeo, reintento 1
+[pipbot] youtube: Buffer no pudo leer el vídeo, reintento 2
+[pipbot] Programado en youtube para 27/11 03:31 UTC
