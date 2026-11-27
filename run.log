@@ -1,21 +1,17 @@
-[pipbot] 23 clips válidos (modo sin claves)
+[pipbot] 24 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=False nota=3 · El clip se centra en el streamer reaccionando a un audio y comentando, no hay jugabilidad ni un suceso concreto dentro del juego que sea relevante para un clip de curiosidades de GTA 6.
+[pipbot] IA: knekro usable=False nota=1 · El clip muestra exclusivamente un menú de configuración del juego y el streamer cerrándolo, sin mostrar gameplay, bugs o mecánicas de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=8 · Muestra un detalle cómico y realista de la IA de los NPCs en GTA 6 que la comunidad valora mucho.
-[pipbot] Montado: pip_2956798296.mp4 | LA IA DE GTA 6 MIENTE
+[pipbot] IA: thegrefg usable=False nota=1 · El clip es de Marvel Rivals, no de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · Muestra una mecánica interactiva de inmersión en el club de striptease que muchos jugadores desconocen.
-[pipbot] Montado: pip_4255110309.mp4 | CÓMO TIRAR DINERO EN GTA 6
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] IA: thegrefg usable=False nota=3 · El clip muestra principalmente al streamer frustrado por un bug de respawn en un menú de pausa, no es un momento de jugabilidad destacable.
+[pipbot] IA: knekro usable=False nota=0 · No es GTA 6, es un juego de temática Western (Evil West).
