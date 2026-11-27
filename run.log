@@ -1,9 +1,20 @@
-[pipbot] 21 clips válidos (modo sin claves)
+[pipbot] 24 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip muestra principalmente al streamer reaccionando y haciendo ruidos, sin mostrar gameplay real de GTA 6.
+[pipbot] IA: illojuan usable=True nota=8 · Muestra una mecánica de sigilo y ejecución realista en GTA 6 que es muy satisfactoria de ver.
+[pipbot] Montado: pip_3331577287.mp4 | EL SIGILO MÁS REALISTA EN GTA
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=False nota=0 · El contenido es un evento de la vida real (gincana física) y no una partida de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece al videojuego GTA 6; se trata de un evento de la vida real (carrera de obstáculos) protagonizado por el streamer ElMariana.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
@@ -24,3 +35,10 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: auronplay usable=False nota=0 · El clip es únicamente el streamer hablando sobre sus intenciones futuras de jugar al juego, sin mostrar gameplay ni ninguna acción concreta dentro de GTA 6.
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
