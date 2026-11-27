@@ -1,29 +1,27 @@
-[pipbot] 23 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=7 · Muestra la fluidez de las animaciones de disparo desde vehículos y la iluminación dinámica de los fogonazos.
-[pipbot] Montado: pip_1916734961.mp4 | ASÍ SE DISPARA EN COCHE AHORA
+[pipbot] 24 clips válidos (modo sin claves)
+[pipbot] IA: elmariana usable=False nota=0 · El contenido no es GTA 6; se trata de un evento en la vida real (IRL) con el streamer en un escenario.
+[pipbot] IA: elmariana usable=False nota=0 · No es GTA 6, es un evento en la vida real (Just Chatting/IRL).
+[pipbot] IA: elmariana usable=False nota=0 · El vídeo no es de GTA 6, se trata de un evento de la vida real con personas disfrazadas de botargas.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip muestra un evento de la vida real en un estadio y no contenido del videojuego GTA 6.
+[pipbot] IA: auronplay usable=False nota=0 · El clip es solo el streamer hablando a cámara, no hay gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip es contenido de 'Just Chatting' y no muestra gameplay de GTA 6.
+[pipbot] IA: thegrefg usable=False nota=0 · El clip es puramente 'Just Chatting' (el streamer hablando a cámara), no muestra gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=False nota=4 · Es una cinemática de la historia principal (spoiler), no es un momento de gameplay emergente.
+[pipbot] IA: thegrefg usable=True nota=8 · Muestra un nivel de detalle en las animaciones de GTA 6 que es muy compartido por la comunidad.
+[pipbot] Montado: pip_1972887414.mp4 | DETALLE OCULTO EN LA DUCHA
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece al juego GTA 6; se trata de una actividad de la vida real (un toro mecánico en un evento público) y no contiene contenido relacionado con el videojuego.
-[pipbot] IA: rubius usable=False nota=0 · El clip consiste principalmente en el streamer hablando a cámara y mostrando su panel de control de Twitch; no hay contenido de gameplay relevante de GTA 6.
-[pipbot] IA: rubius usable=True nota=7 · Muestra las nuevas físicas de colisión y peso de las aeronaves en GTA 6 durante un fail de Rubius.
-[pipbot] Montado: pip_2453302340.mp4 | CUIDADO CON EL DESPEGUE AHORA
+[pipbot] IA: zeling usable=False nota=0 · El clip es una streamer reaccionando a otro streamer jugando a un juego de Pokémon, no es contenido de GTA 6.
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
