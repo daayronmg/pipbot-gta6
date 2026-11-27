@@ -1,27 +1,16 @@
 [pipbot] 24 clips válidos (modo sin claves)
-[pipbot] IA: elmariana usable=False nota=0 · El contenido no es GTA 6; se trata de un evento en la vida real (IRL) con el streamer en un escenario.
-[pipbot] IA: elmariana usable=False nota=0 · No es GTA 6, es un evento en la vida real (Just Chatting/IRL).
-[pipbot] IA: elmariana usable=False nota=0 · El vídeo no es de GTA 6, se trata de un evento de la vida real con personas disfrazadas de botargas.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=0 · El clip es solo el streamer hablando a cámara, no hay gameplay de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip es de la vida real, no es contenido del juego GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El vídeo no es de GTA 6, se trata de un evento IRL con gente disfrazada de botargas.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip es puramente 'Just Chatting' (el streamer hablando a cámara), no muestra gameplay de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=True nota=8 · Muestra un nivel de detalle en las animaciones de GTA 6 que es muy compartido por la comunidad.
-[pipbot] Montado: pip_1972887414.mp4 | DETALLE OCULTO EN LA DUCHA
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=False nota=0 · El clip es una streamer reaccionando a otro streamer jugando a un juego de Pokémon, no es contenido de GTA 6.
+[pipbot] IA: perxitaa usable=True nota=8 · Muestra una interacción poco común de la IA con un patinete eléctrico y un atropello accidental, algo muy representativo de las nuevas físicas de GTA 6.
+[pipbot] Montado: pip_1347312676.mp4 | LA FÍSICA DEL PATINETE ES REAL
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@f2552f7089483029b02a2e5dbdf47804382b6bd4/pip_1347312676.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
