@@ -1,21 +1,14 @@
-[pipbot] 29 clips válidos (modo sin claves)
-[pipbot] Gemini gemini-3-flash-preview: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: vegetta777 usable=True nota=7 · El cartel de 'Se busca' es un detalle humorístico de Rockstar que añade profundidad al mundo del juego.
-[pipbot] Montado: pip_3264230590.mp4 | EL CRIMEN MÁS RARO DE LEONIDA
-[pipbot] IA: knekro usable=False nota=0 · El juego que aparece en el clip no es GTA 6, sino un simulador de limpieza de dinero.
+[pipbot] 26 clips válidos (modo sin claves)
+[pipbot] IA: elxokas usable=False nota=0 · No es GTA 6, es contenido de Just Chatting sobre política.
+[pipbot] IA: rubius usable=True nota=8 · Contiene un diálogo contextual único de Lucía buscando a Jason tras un accidente.
+[pipbot] Montado: pip_3179913479.mp4 | LUCÍA BUSCA A JASON DESESPERADAMENTE
+[pipbot] IA: knekro usable=False nota=0 · No es GTA 6 (es Red Dead Redemption 2) y el clip trata sobre un fallo técnico de la cámara del streamer en un menú.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=8 · Muestra una interacción realista con la IA de los NPCs en GTA 6, algo que los fans valoran mucho.
-[pipbot] Montado: pip_1479849053.mp4 | NO TE ACERQUES A ESTE NPC
+[pipbot] IA: auronplay usable=True nota=8 · Muestra una interacción física única y graciosa con la IA de los NPC en GTA 6.
+[pipbot] Montado: pip_4168359640.mp4 | NO TE SUBAS AQUÍ
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] Programado en youtube para 28/11 00:22 UTC
-[pipbot] Programado en youtube para 28/11 00:37 UTC
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
