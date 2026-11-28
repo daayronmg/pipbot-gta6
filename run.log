@@ -3,12 +3,14 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: illojuan usable=True nota=7 · Muestra un detalle de inmersión en la vida cotidiana de los personajes con la televisión interactiva.
-[pipbot] Montado: pip_3016015051.mp4 | LA TELEVISIÓN DE GTA 6
+[pipbot] IA: auronplay usable=True nota=7 · Muestra una mecánica realista de supervivencia y gestión de necesidades en GTA 6.
+[pipbot] Montado: pip_1944276331.mp4 | TU PERSONAJE TIENE NECESIDADES REALES
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip no pertenece al juego GTA 6, se trata de una opinión política del streamer sobre las elecciones.
+[pipbot] IA: rubius usable=True nota=7 · Muestra una mecánica de interacción con NPCs en el club nocturno que muchos jugadores desconocen.
+[pipbot] Montado: pip_3904880087.mp4 | NO TIRES DINERO ASÍ
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
