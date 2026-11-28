@@ -1,17 +1,21 @@
-[pipbot] 24 clips válidos (modo sin claves)
+[pipbot] 29 clips válidos (modo sin claves)
+[pipbot] Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: vegetta777 usable=True nota=7 · El cartel de 'Se busca' es un detalle humorístico de Rockstar que añade profundidad al mundo del juego.
+[pipbot] Montado: pip_3264230590.mp4 | EL CRIMEN MÁS RARO DE LEONIDA
+[pipbot] IA: knekro usable=False nota=0 · El juego que aparece en el clip no es GTA 6, sino un simulador de limpieza de dinero.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=False nota=1 · El clip muestra exclusivamente un menú de configuración del juego y el streamer cerrándolo, sin mostrar gameplay, bugs o mecánicas de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=1 · El clip es de Marvel Rivals, no de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=3 · El clip muestra principalmente al streamer frustrado por un bug de respawn en un menú de pausa, no es un momento de jugabilidad destacable.
-[pipbot] IA: knekro usable=False nota=0 · No es GTA 6, es un juego de temática Western (Evil West).
+[pipbot] IA: illojuan usable=True nota=8 · Muestra una interacción realista con la IA de los NPCs en GTA 6, algo que los fans valoran mucho.
+[pipbot] Montado: pip_1479849053.mp4 | NO TE ACERQUES A ESTE NPC
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] Programado en youtube para 28/11 00:22 UTC
+[pipbot] Programado en youtube para 28/11 00:37 UTC
