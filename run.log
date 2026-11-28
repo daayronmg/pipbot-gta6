@@ -1,16 +1,24 @@
-[pipbot] 28 clips válidos (modo sin claves)
+[pipbot] 30 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El clip es un streamer (elxokas) dando su opinión política y no muestra contenido de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 503 {
+[pipbot] IA: knekro usable=True nota=8 · Muestra una mecánica de juego inusual y visualmente impactante dentro de una cámara acorazada de GTA 6.
+[pipbot] Montado: pip_2988655961.mp4 | CÓMO ROBAR DINERO EN GTA 6
+[pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-[pipbot] IA: zeling usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: elxokas usable=False nota=0 · El contenido es un streamer opinando sobre política y no contiene gameplay de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
 [pipbot] IA: perxitaa usable=False nota=0 · El clip es de Minecraft, no de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
+[pipbot] IA: zeling usable=False nota=0 · El contenido es una streamer jugando World of Warcraft, no tiene relación con GTA 6.
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
