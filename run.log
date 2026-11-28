@@ -1,21 +1,19 @@
-[pipbot] 23 clips válidos (modo sin claves)
+[pipbot] 26 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=3 · El clip muestra principalmente al streamer reaccionando y frustrándose por un coche que no aparece, y termina en el menú de la consola, sin mostrar ninguna mecánica, detalle o evento relevante del juego.
+[pipbot] IA: werlyb usable=False nota=0 · El clip es solo el streamer hablando a cámara sobre un tema personal y no muestra gameplay de GTA 6.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: werlyb usable=False nota=0 · El clip es solo el streamer hablando y reaccionando a un chat, no hay contenido del juego GTA 6.
+[pipbot] IA: knekro usable=True nota=8 · Muestra una mecánica de juego realista y divertida donde el daño ambiental o de explosivos afecta a los enemigos de forma inesperada.
+[pipbot] Montado: pip_3790067556.mp4 | NO DISPARES A ESTO CERCA
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: thegrefg usable=False nota=0 · El clip se centra principalmente en el streamer leyendo el chat y quejándose de un mensaje, no en el juego.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=False nota=3 · El clip se centra principalmente en la streamer hablando sobre el juego y su viaje, en lugar de mostrar una mecánica o momento concreto de GTA 6.
+[pipbot] IA: zeling usable=False nota=0 · El clip se centra principalmente en la streamer hablando sobre sus planes de viaje y su opinión sobre el roleplay, con solo un breve momento de gameplay irrelevante que no aporta valor informativo o curioso sobre GTA 6.
+[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
