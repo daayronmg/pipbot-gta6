@@ -1,13 +1,9 @@
 [pipbot] 29 clips válidos (modo sin claves)
-[pipbot] IA: illojuan usable=True nota=9 · Easter egg de Arthur Morgan muy curioso y bien detallado.
-[pipbot] Montado: pip_2649760830.mp4 | ROCKSTAR ESCONDIÓ A ARTHUR MORGAN
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=False nota=0 · El clip no pertenece al juego GTA 6, se trata de un minijuego arcade externo o una interfaz de otro juego tipo 'Snake'.
-[pipbot] IA: rubius usable=True nota=8 · Muestra las avanzadas físicas de movimiento y colisión en los cuerpos de los personajes.
-[pipbot] Montado: pip_146920047.mp4 | FÍSICAS DE PERSONAJES NUNCA VISTAS
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+[pipbot] IA: auronplay usable=False nota=0 · El clip es un streamer en modo Just Chatting leyendo mensajes de seguidores y no contiene gameplay ni contenido relacionado con GTA 6.
+[pipbot] IA: vegetta777 usable=False nota=3 · El audio está completamente dominado por el streamer hablando de temas personales ajenos al juego (su edad y comentarios del chat), lo que distrae del contenido de GTA 6.
+[pipbot] IA: auronplay usable=False nota=0 · No es GTA 6, se trata de una partida de Marvel Rivals.
+[pipbot] IA: elxokas usable=False nota=0 · El clip no contiene gameplay de GTA 6; se trata de un vídeo de reacción del streamer a un debate político en la categoría Just Chatting.
