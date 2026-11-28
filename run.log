@@ -1,24 +1,14 @@
-[pipbot] 30 clips válidos (modo sin claves)
+[pipbot] 29 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=True nota=8 · Muestra una mecánica de juego inusual y visualmente impactante dentro de una cámara acorazada de GTA 6.
-[pipbot] Montado: pip_2988655961.mp4 | CÓMO ROBAR DINERO EN GTA 6
+[pipbot] IA: illojuan usable=True nota=7 · Muestra un detalle de inmersión en la vida cotidiana de los personajes con la televisión interactiva.
+[pipbot] Montado: pip_3016015051.mp4 | LA TELEVISIÓN DE GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: elxokas usable=False nota=0 · El contenido es un streamer opinando sobre política y no contiene gameplay de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: perxitaa usable=False nota=0 · El clip es de Minecraft, no de GTA 6.
-[pipbot] Gemini gemini-3-flash-preview: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=False nota=0 · El contenido es una streamer jugando World of Warcraft, no tiene relación con GTA 6.
+[pipbot] IA: elxokas usable=False nota=0 · El clip no pertenece al juego GTA 6, se trata de una opinión política del streamer sobre las elecciones.
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
