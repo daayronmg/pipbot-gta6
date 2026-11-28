@@ -3,15 +3,14 @@
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: auronplay usable=True nota=8 · Muestra una mecánica de interacción emergente muy inusual y divertida con los NPCs en un accidente.
-[pipbot] Montado: pip_2938188881.mp4 | NO AYUDES A ESTE NPC
-[pipbot] Gemini gemini-3-flash-preview: 429 {
+[pipbot] IA: elxokas usable=False nota=0 · El clip es un streamer (elxokas) dando su opinión política y no muestra contenido de GTA 6.
+[pipbot] Gemini gemini-3-flash-preview: 503 {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: rubius usable=True nota=8 · El clip muestra una reacción natural y cómica ante el nivel de detalle de los NPCs en GTA 6.
-[pipbot] Montado: pip_2296211640.mp4 | LA IA DE GTA 6 ES RARA
-[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@cebbafc977b275ad3d222da0f6901507cce77c1e/pip_2938188881.mp4
-[pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
-[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[pipbot] IA: zeling usable=False nota=0 · El clip es de World of Warcraft, no de GTA 6.
+[pipbot] IA: perxitaa usable=False nota=0 · El clip es de Minecraft, no de GTA 6.
