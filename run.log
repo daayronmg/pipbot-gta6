@@ -1,19 +1,22 @@
-[pipbot] 26 clips válidos (modo sin claves)
+[pipbot] 31 clips válidos (modo sin claves)
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: werlyb usable=False nota=0 · El clip es solo el streamer hablando a cámara sobre un tema personal y no muestra gameplay de GTA 6.
+[pipbot] IA: elmariana usable=False nota=0 · El clip no pertenece al juego GTA 6, es contenido de un evento de streamers en la vida real.
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: knekro usable=True nota=8 · Muestra una mecánica de juego realista y divertida donde el daño ambiental o de explosivos afecta a los enemigos de forma inesperada.
-[pipbot] Montado: pip_3790067556.mp4 | NO DISPARES A ESTO CERCA
+[pipbot] IA: vegetta777 usable=True nota=7 · Muestra un bug visual persistente de fuego infinito en una de las localizaciones del juego.
+[pipbot] Montado: pip_2116272164.mp4 | EL FUEGO INFINITO DE GTA 6
 [pipbot] Gemini gemini-3-flash-preview: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do
-[pipbot] IA: zeling usable=False nota=0 · El clip se centra principalmente en la streamer hablando sobre sus planes de viaje y su opinión sobre el roleplay, con solo un breve momento de gameplay irrelevante que no aporta valor informativo o curioso sobre GTA 6.
+[pipbot] IA: illojuan usable=True nota=8 · El clip muestra una mecánica de juego de combate muy dinámica y realista donde los personajes deben ayudarse para sobrevivir, algo que los fans de GTA buscan.
+[pipbot] Montado: pip_1789377026.mp4 | JASON CASI MUERE EN ESTE TIROTEO
+[pipbot] AVISO: jsDelivr no sirve todavía https://cdn.jsdelivr.net/gh/daayronmg/pipbot-gta6@dee23198a2768a5fba509fcd00e33036aa9aba47/pip_1789377026.mp4
 [pipbot] Canales: [('youtube', 'Pip Te Lo Explica ')]
+[pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
 [pipbot] YouTube: ya van los Shorts permitidos hoy, este va solo a TikTok
